@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html{
+				background: #cfc062;
+			}
+
+			body{
+				width: 500px;
+				background: #d3d3d3;
+				box-shadow: 5px 5px 10px #888;
+				margin: 2px auto;
+				padding: 20px;
+				font-family: garamond, serif;
+				font-size: 14px;
+			}
+
+			.story{
+				font-size: 0.9em;
+				background-color: #b9b9b9;
+				display: none;
+			}
+
+			.desc{
+				display: none;
+			}
+
+			.story{
+				display: none;
+			}
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".2").hide();
+
+				$("#base").click(function(){
+					$(".2").hide();
+					$(".1").show();
+				});
+
+				$("#stretch").click(function(){
+					$(".1").hide();
+					$(".2").show();
+				});
+				
+				$("#all").click(function(){
+					$(".1").show();
+					$(".2").show();
+				});
+
+				$("#details").click(function(){
+					$(".desc").toggle();
+					$(".story").toggle();
+				});
+			});
+		</script>
+		<button type="button" id='all'>All goals</button>
+		<button type="button" id='base'>Base scope</button>
+		<button type="button" id='stretch'>Stretch scope</button>
+		<br>
+		<button type="button" id='details'>Display details</button>
+
+		<h1>Folkrider</h1>
+		<p class='story'>A user goes to the show of a Folkrider artist whose given a recommendation</p>
+		<p class='story'>A user enters 'Folkrider' or 'fold music' or other related terms into a search engine and arrives at the site</p>
+		<p class='story'>A user here's from a friend about the site and decides to visit</p>
+		<ul>
+			<li>
+				<h2>Membership</h2>
+				<ul>
+					<li>
+						<h3>Paid user membership</h2>
+						<p class='story'>
+							After arriving at the site the user ether decides to sign up for Folkrider on their own, or attempts to visit a portion of the site that is only available to members
+						</p>
+						<ul>
+							<li class='1'>
+								<h3>User registration</h3>
+								<ul>
+									<li class='1'>
+										<h4>Information gathering</h4>
+										<p class='story'>
+											After deciding to become a Folkrider the user is directed to a form designed to gather their email, password, and desired alias. Upon 'failure of pass match', 'email address already registered', or 'unspecified failure condition', an alert message appears in the same window displaying the error thrown without having any destructive effect on entered information. Upon successful completion of registration form the users information will be entered into the user database.
+										</p>
+									</li>
+									<li>
+										<h4>Database management</h3>
+										<p class='desc'>
+											(mysql) Based primarily on email address with an id pass and alias bound to it
+										</p>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h3>Transaction handling</h3>
+								<p class='story'>
+									After successfully filling out the registration form the user is directed to a page where they can choose a method of payment, upon the successful completion of the transaction, their account is made active and they are directed to a thank you page.
+								</p>
+								<ul>
+									<li class='1'>
+										<h5>Paypal</h4>
+									</li>
+									<li class='2'>
+										<h5>Amazon</h5>
+									</li>
+									<li class='2'>
+										<h5>Google wallet</h5>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class='2'>
+						<h3>Limited admin privileges for content providers</h3>
+						<p class='story'>
+							After logging on the artist goes to a management page where they can edit the cd's and songs available in on their page
+						</p>
+						<ul>
+							<li>
+								<h4>Change log / Audit trail</h4>
+								<p class='desc'>
+									A log that the administrator can easily check for errors or policy breaking modifications made by the content providers
+								</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h2>Catalog management</h2>
+				<ul>
+					<li class='1'>
+						<h3>Json</h3>
+						<h3>Changed to mysql on 3/18/14</h3>
+						<p class='story'>
+							An administrator logs into the management environment, accesses the catalog file, and makes appropriate changes
+						</p>
+						<p>Achived 03.19.14</p>
+					</li>
+					<li class='2'>
+						<h3>GUI for easy admin management</h3>
+						<p class='story'>
+							An administrator logs into the management environment where he or she is presented with a tree display of the artists, cds, and songs. From this view they have the ability to add to, modify, or deactivate any part of the catalog.
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li class='1'>
+				<h2>Catalog display</h2>
+				<p class='desc'>
+					A display of the artists, cds, and songs contained in the Folkrider catalog 
+				</p>
+				<ul>
+					<li>
+						<h3>General display</h3>
+						<p class='story'>
+							A possibly unregistered user accesses the 'music' section of website and views the main section featuring one entry per artist each entry containing one cd and one song.
+						</p>
+						<p>acomplished 3.25.14</p>
+						<ul>
+							<li>
+								<h4>Artist page</h4>
+								<p class='story'>
+									After visiting the general or categorized display, the user clicks on the image of the artist to navigate to a page featuring their cds in the fokeider catalog, an mp3 player, and a download link
+								</p>
+								<p>acomplished 3.25.14</p>
+								<ul class='2'>
+									<li>
+										<h5>Artist produced blogs</h5>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<h4>Album page</h4>
+								<p class='story'>
+									After visiting the general or categorized display or navigates to the artist page, then clicks on the image of an album cover to navigate to a page featuring a song list, an mp3 player, a download link, and a link to purchase the cd
+								</p>
+								<p>acomplished 3.25.14</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>Categorized display</h3>
+						<ul>
+							<li>
+								<h4>By artist</h4>
+								<p class='story'>
+									The user clicks the 'View By Artist' link and is directed to a page featuring an alphabetical list of all the artists who's work is in the Folkrider catalog, each entry displayed with the artists photo and name
+								</p>
+								<p>acomplished 3.25.14</p>
+							</li>
+							<li>
+								<h4>By album</h4>
+								<p class='story'>
+									The user clicks the 'View By Album' link and is directed to a page featuring an alphabetical list of all the albums contained in the folkrideer catalog, each entry displayed with the albums cover art, name, and the name of the artist who wrote it
+								</p>
+								<p>acomplished 3.25.14</p>
+							</li>
+							<li>
+								<h4>By song</h4>
+								<p class='story'>
+									The user clicks the 'List By Song' link and is directed to a page featuring an alphabetical list of every song in the Folkrider catalog, each entry displayed with the songs name, the album it's from, and the artist who wrote it, as well as an mp3 player with the song bound to it
+								</p>
+								<p>acomplished 3.25.14</p>
+							</li>
+							<li class='2'>
+
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>Mp3 player</h3>
+						<p class='desc'>
+							Simple javascript player
+						</p>
+						<p class='story'>
+							after the user presses the 'play' button the player begins to play from the selection it references.
+						</p>
+						<p class='story'>
+							the user presses the 'play' button, upon failure to load the mp3's bound to the player, an alert appears telling the user that there has been an error and prompting them to reload and inform us if the problem persists
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li class='2'>
+				<h2>In The Studio</h2>
+				<p class='desc'>
+					A place where work in progress can be featured by the artist and previewed by the members. Members olny area
+				</p>
+			</li>
+			<li class='2'>
+				<h2>Market</h2>
+				<p class='story'>
+					A member visits the market section of the site, selects which products they want to purchase, add's them to a cart, and completes their order.
+				</p>
+				<ul>
+					<li>
+						<h3>Catalog display</h3>
+						<ul>
+							<li>
+								<h4>displaying in alphabetical order by artist</h4>
+								<p class='story'>
+									Upon a member pressing the 'Sort by artist' button they are presented with a drop down list of every artist (broken ten to a page) in alphabetical order with a drop down each containing the artists folkrider catalog 
+								</p>
+							</li>
+							<li>
+								<h4>displaying in alphabetical order by album</h4>
+								<p class='story'>
+									Upon a member pressing the 'Sort by album' button they are presented with a list of every album (broken ten to a page) in the folkrider catalog sorted in alphabetical order
+								</p>
+							</li>
+							<li>
+								<h4>displaying by popularity</h4>
+								<p class='story'>
+									Upon a member pressing the 'Sort by album' button they are presented with a list of every album (broken ten to a page) in the folkrider catalog sorted by order of popularity
+								</p>
+							</li>
+							<li>
+								<h4>catalog search function</h4>
+								<p class='story'>
+									A member enters a string into a text field and presses the  'Find' button, the system preforms a search function on both artists album titles, if there is a result then it is returned, if nothing in the database matches then the user is directed to a page (still on the market page) stating that there are no products that match that search criteria
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>Shopping cart selection</h3>
+						<p class='story'>
+							After finding the product the user wishes to perches they press an 'add to cart' button which triggers the database to store their selection associated with their user id and a time stamp, with functionality to ether transfer the order to the completed purchases table, or deprecate it after 24 hrs of inactivity. If there is an error, a nondestructive alert is thrown detailing the error.
+						</p>
+					</li>
+					<li>
+						<h3>Transaction handling</h3>
+						<p class='story'>
+							After adding items to the shopping cart the user presses the checkout button, and finishes the payment method, at which point the cache is transferred from the active cart to the completed purchases.
+						</p>
+						<ul>
+							<li class='1'>
+								<h5 class='1'>Paypal</h4>
+							</li>
+							<li class='2'>
+								<h5 >Amazon</h5>
+							</li>
+							<li class='2'>
+								<h5 >Google wallet</h5>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h2>Contact</h2>
+				<ul>
+					<li class='1'>
+						<h3>General contact</h3>
+						<p class='story'>
+							a non registered user fills out the contact form including name, email, subject, and body, if any field contains null or invalid value a non destructive function is called that displays an alert containing the error, if there are no errors than the message is processed and sent to a message log to be reviewed by the admin. the user is directed to a page thanking them for the message
+						</p>
+					</li>
+					<li class='1'>
+						<h3>Member contact</h3>
+						<p class='story'>
+							a member fills out the contact form including name, (email being automatically pulled from the database), subject, and body, if any field contains null or invalid value a non destructive function is called that displays an alert containing the error, if there are no errors than the message is processed and sent to a message log to be reviewed by the admin. the user is directed to a page thanking them for the message
+						</p>
+					</li>
+					<li class='2'>
+						<h3>Artist Submission section</h3>
+						<p class='story'>
+							After becoming a member an artist decides they want to have their work featured on the Folkrider network. they navigate to a page where they are presented with a form that asks for their name, the band name, email, reason they want to be a Folkrider Artist and a song they think is a fare representation of their work. If any of the data is invalid a non destructive function is called that displays an alert. If all fields are properly filled out then the message is sent to the content manager for review. The user is directed to a page thanking them for the message
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h2>Mp3 download functionality</h2>
+				<ul>
+					<li class='1'>
+						<h3>As ZIP</h3>
+						<p class='story'>
+							After the member presses the download link on a page a .zip file is sent to the users browser. If there are errors an alert is displayed informing the user of the issue along with possible fixes. if there are no errors the file finishes downloading with no further interaction with the user
+						</p>
+					</li>
+					<li class='2'>
+						<h3>As multi thread stream</h3>
+						<p class='story'>
+							After the member presses the download link on a page the mp3's associated with that link are sent to the users browser. If there are errors an alert is displayed informing the user of the issue along with possible fixes. if there are no errors the file finishes downloading with no further interaction with the user
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<h2>Folkrider radio</h2>
+				<ul>
+					<li class='1'>
+						<h3>As a page</h3>
+						<p class='story'>
+							A user navigates to the Folkrider radio page at which point Folkrider radio begins to stream.
+						</p>
+					</li>
+					<li class='2'>
+						<h3>As site wide widget</h3>
+						<p class='story'>
+							upon navigating to Folkrider a prompt displays asking the user if they would like to listen to Folkrider radio for free while they browse the site, if the user answers no than the widget minimizes to an unobtrusive tab at the bottom of the page, if the user answers yes than a short message saying 'welcome to Folkrider, if you enjoy this station please consider becoming a Folkrider of only $12.00' and then begins to stream the radio station
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li class='2'>
+				<h2>Comment and rating system</h2>
+				<p class='story'>
+					A member of the site after listening to an album, or multiple albums decides to leave a comment about an artist or album but filling out a form asking for the body of the comment and an optional rating, the alias and email are then retrieved from the session information, then submits all four pieces of information to a database that is then displayed on the artists or albums page 
+				</p>
+			</li>
+			<li class='2'>
+				<h2>Facebook integration</h2>
+			</li>
+		</ul>
+		<p>
+			agreed to on 3/15/14
+		</p>
+	</body>
+</html>

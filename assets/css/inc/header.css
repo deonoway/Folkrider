@@ -1,0 +1,55 @@
+header{
+	display: block;
+	width: 600px;
+	height: 140px;
+}
+
+nav ul{
+	display: block;
+	margin: 0 22px;
+	font-size:22px;
+}
+
+nav ul li{
+	float: left;
+	display: block;
+}
+
+nav ul li a{
+	display: block;
+	color: #116C46;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin: 0 10px;
+}
+
+nav ul li a:hover{
+	background: #116C46;
+	color: #F9F4C4;
+}
+
+nav ul li ul{
+	position: absolute;
+	display: none;
+	border:1px solid #116C46;
+	border-bottom: 1px solid #116C46;
+	font-size:15px;
+	margin: 0px 10px;
+}
+
+nav ul li:hover ul{
+	display: block;
+	background: #F9F4C4;
+	z-index: 1;
+}
+
+nav ul li ul li{
+	float: none;
+	padding : 5px 5px;
+}
+
+nav ul li ul li a{
+	padding : 5px 5px;
+	margin: 0px;
+}

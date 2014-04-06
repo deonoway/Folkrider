@@ -1,0 +1,20 @@
+[02-Apr-2014 18:50:49] PHP Parse error:  syntax error, unexpected '(', expecting '&' or T_VARIABLE in /home1/deonoway/public_html/dev/application/libraries/MY_Image_lib.php on line 40
+[03-Apr-2014 11:51:20] PHP Parse error:  syntax error, unexpected '<' in /home1/deonoway/public_html/dev/application/views/artistpage.php on line 23
+[03-Apr-2014 12:05:28] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home1/deonoway/public_html/dev/application/views/artistpage.php on line 19
+[03-Apr-2014 12:51:31] PHP Parse error:  syntax error, unexpected '.' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 21
+[04-Apr-2014 09:36:15] PHP Fatal error:  Call to undefined method Cat_man::getAllSong() in /home1/deonoway/public_html/dev/application/controllers/music.php on line 88
+[04-Apr-2014 09:36:54] PHP Fatal error:  Call to undefined method Cat_man::getAllSong() in /home1/deonoway/public_html/dev/application/controllers/music.php on line 88
+[04-Apr-2014 10:51:13] PHP Fatal error:  Call to undefined function  printr() in /home1/deonoway/public_html/dev/application/controllers/music.php on line 100
+[04-Apr-2014 10:52:48] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 103
+[04-Apr-2014 10:53:48] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 103
+[04-Apr-2014 10:54:30] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 103
+[04-Apr-2014 10:54:55] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 101
+[04-Apr-2014 10:55:13] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 100
+[04-Apr-2014 10:56:04] PHP Parse error:  syntax error, unexpected T_INC, expecting ')' in /home1/deonoway/public_html/dev/application/controllers/music.php on line 100
+[04-Apr-2014 11:11:09] PHP Fatal error:  Call to undefined function  rint_r() in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 23
+[04-Apr-2014 11:28:45] PHP Parse error:  syntax error, unexpected T_ECHO in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 24
+[04-Apr-2014 11:36:59] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 26
+[04-Apr-2014 12:12:31] PHP Parse error:  syntax error, unexpected '<' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 22
+[04-Apr-2014 12:13:10] PHP Parse error:  syntax error, unexpected T_FOR, expecting ',' or ';' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 23
+[04-Apr-2014 12:13:22] PHP Parse error:  syntax error, unexpected '<' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 32
+[04-Apr-2014 12:13:50] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home1/deonoway/public_html/dev/application/views/albumpage.php on line 33
