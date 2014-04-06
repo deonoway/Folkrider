@@ -1,0 +1,6 @@
+[05-Aug-2013 19:00:11] PHP Warning:  include(http://folkrider.com/Includes/head.php) [<a href='function.include'>function.include</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/deonoway/public_html/Music/Artist/JPJones/BrokenOpen/index.php on line 2
+[05-Aug-2013 19:00:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'http://folkrider.com/Includes/head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/deonoway/public_html/Music/Artist/JPJones/BrokenOpen/index.php on line 2
+[10-Oct-2013 01:45:22] PHP Warning:  include(http://folkrider.com/Includes/foot.php) [<a href='function.include'>function.include</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home1/deonoway/public_html/Music/Artist/JPJones/BrokenOpen/index.php on line 55
+[10-Oct-2013 01:45:22] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'http://folkrider.com/Includes/foot.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/deonoway/public_html/Music/Artist/JPJones/BrokenOpen/index.php on line 55

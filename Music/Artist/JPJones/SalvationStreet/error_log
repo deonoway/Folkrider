@@ -1,0 +1,6 @@
+[10-Oct-2013 01:45:22] PHP Warning:  include(http://folkrider.com/Includes/foot.php) [<a href='function.include'>function.include</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home1/deonoway/public_html/Music/Artist/JPJones/SalvationStreet/index.php on line 58
+[10-Oct-2013 01:45:22] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'http://folkrider.com/Includes/foot.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/deonoway/public_html/Music/Artist/JPJones/SalvationStreet/index.php on line 58
+[13-Jan-2014 14:23:19] PHP Warning:  include(http://folkrider.com/Includes/head.php) [<a href='function.include'>function.include</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home1/deonoway/public_html/Music/Artist/JPJones/SalvationStreet/index.php on line 2
+[13-Jan-2014 14:23:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'http://folkrider.com/Includes/head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/deonoway/public_html/Music/Artist/JPJones/SalvationStreet/index.php on line 2

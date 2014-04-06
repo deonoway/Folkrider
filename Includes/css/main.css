@@ -1,0 +1,393 @@
+body
+{
+	background: #116C46;
+	text-align: center;
+}
+
+p
+{
+	padding: 0 0;
+	margin: 0 0;
+}
+
+a:link 
+{
+	color:#116C46;
+}	
+
+a:visited 
+{
+	color:#116C46;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0 0;
+	margin: 0 0;
+}
+
+form
+{
+	background: #116C46;
+	color: #F9F4C4;
+	border: 6px double #F9F4C4;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.reg
+{
+	background: #E75756;
+	color: #F9F4C4;
+	border: 6px double #F9F4C4;
+	padding: 5px;
+	border-radius: 7px;
+	font-weight: bold;
+	font-size: 22px;
+}
+	.reg a:link
+	{
+		color: #F9F4C4;
+	}
+	
+	.reg a:visited
+	{
+		color: #F9F4C4;	
+	}
+
+.contain
+{
+	background: #116C46;
+	color: #F9F4C4;
+	border: 6px double #F9F4C4;
+	padding: 5px;
+	border-radius: 7px;
+}
+
+	.contain a:link 
+	{
+		color: #F9F4C4;
+	}
+	
+	.contain a:visited 
+	{
+		color: #F9F4C4;
+	}
+
+#container
+{
+	background: #F9F4C4;
+	width: 750px;
+	margin: 0 auto;
+	color:#116C46 ;
+	font-family: Garamond;
+	font-size: 18px;
+	border: 10px solid #F9F4C4;
+	position: relative;
+}
+
+#header
+{
+	width: 700px;
+	height: 150px;
+}
+
+#nav
+{
+	background: #F9F4C4;
+	color:#116C46 ;	
+	font-size: 20px;
+}	
+	
+	ul#nav
+	{
+		display: block;
+		margin: 0 auto;
+	}
+	
+		ul#nav li
+		{
+			float: left;
+			display: block;
+		}
+	
+			ul#nav li a
+			{
+				display: block;				
+				color: #116C46;
+				text-decoration: none;
+				font-weight: bold;
+				padding : 5px 28px;
+			}
+		
+				ul#nav li a:hover
+				{
+					background: #116C46;
+					color: #F9F4C4;
+				}	
+				
+			ul#nav li ul
+			{
+				position: absolute;
+				display: none;
+				border:1px solid #116C46;
+				border-bottom: 1px solid #116C46;
+			}
+				
+				ul#nav li:hover ul
+				{
+					display: block;
+					background: #F9F4C4;
+				}
+				
+				ul#nav li ul li
+				{
+					float: none;
+					padding : 5px 5px;
+				}
+					
+					ul#nav li ul li a
+					{
+						padding : 5px 5px;
+					}
+					
+.contact
+{
+	text-align: left;
+	display: block;
+	background: #116C46;
+	color: #F9F4C4;
+}
+
+#main
+{
+	font-weight : bold;
+	font-size: 16px;
+	width: 730px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	#videocontainer
+	{
+		background: #116C46;
+		color: #F9F4C4;
+		width : 352px;
+		height : 240px;
+		margin: 0 auto;
+	}
+
+	#home1
+	{
+		margin: 0 10px ;
+	}
+	
+	#home2
+	{
+		margin: 0 100px;
+	}
+	
+	#home3
+	{
+		margin: 0 0px;
+	}
+	
+	.big
+	{
+		font-weight: bold;
+		font-size:22px ;
+	}
+	
+	.bigger
+	{
+		font-weight: bold;
+		font-size:34px ;
+	}
+	
+	.biggest
+	{
+		font-weight: bold;
+		font-size: 72px ;
+	}
+	
+#under
+{
+	background: #116C46;
+	width: 730px;
+	margin: 0 auto;
+	color: #F9F4C4;
+	font-size: 18px;
+	text-align: center;
+}
+	
+	#newaddition
+	{
+		display: block;
+		background: #116C46;
+		color: #F9F4C4;
+		width: 710px;
+		height: 225px;
+		margin: 30px auto;
+	}
+
+	#musicmain
+	{
+		background: #116C46;
+		width: 705px;
+		margin: 50px auto;
+	}
+	
+		div#musicmain table tr td table
+		{
+			background: #F9F4C4;
+			margin: 0 auto;
+			display: block;
+		}
+		
+		.me
+		{
+		font-weight: bold;
+		font-size:22px ;
+		display: block;
+		margin-bottom: 180px;
+		}
+			.musicartist
+			{
+				margin: 20px 75px 20px 20px;
+			}
+			
+			.musicalbum
+			{
+				margin: auto 20px auto 75px;
+			}
+
+					.musicspace
+					{
+						display: block;
+						color: #F9F4C4 ;
+						margin: 20px auto;
+					}
+					
+					.musicmp3
+					{
+						display: block;
+					}
+					
+					.artistlink
+					{
+						display: block;
+						font-weight: bold;
+						font-size:22px ;
+					}
+					
+#album
+{
+	background: #116C46;
+	color: #F9F4C4;
+	font-size: 22px;
+	display: block;
+	width: 625px;
+	padding: 35px;
+	margin: 0 auto;
+}
+
+	#album a:link 
+	{
+		color:#F9F4C4;
+	}	
+
+	#album a:visited 
+	{
+		color:#F9F4C4;
+	}
+
+	#songs
+	{
+		background: #F9F4C4;
+		color: #116C46;
+		font-size: 14px;
+		padding: 10px 30px 10px 30px;
+		display: block;
+	}
+
+		#album tr td
+		{
+			padding: 10px;
+		}
+	
+#artist
+{
+	background: #116C46;
+	color: #F9F4C4;
+	font-size: 22px;
+	display: block;
+	width: 625px;
+	padding: 35px;
+	margin: 0 auto;
+}
+
+	#artist a:link 
+	{
+		color:#F9F4C4;
+	}	
+
+	#artist a:visited 
+	{
+		color:#F9F4C4;
+	}
+	
+		#artist tr td
+		{
+			padding: 10px;
+		}
+
+	#mpbig
+	{
+		background: pink;
+		width: 200px;
+		height: 200px;
+	}
+	
+#ordered
+{
+	background: #116C46;
+	color: #F9F4C4;
+	display: block;
+	width: 670px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+	#ordered a:link 
+	{
+		color:#F9F4C4;
+	}	
+
+	#ordered a:visited 
+	{
+		color:#F9F4C4;
+	}
+
+.by
+{
+	font-weight: normal;
+	font-size:12px ;
+}
+
+.artist
+{
+	border: 1px solid #116C46;
+}
+
+.bysong
+{
+	background: #F9F4C4;
+	color: #116C46;
+	width: 150px;
+}

@@ -1,0 +1,12 @@
+[24-Aug-2012 12:59:23] PHP Parse error:  syntax error, unexpected '<' in /home/deonoway/public_html/paypal/button.php on line 2
+[24-Aug-2012 12:59:53] PHP Parse error:  syntax error, unexpected '<' in /home/deonoway/public_html/paypal/button.php on line 3
+[24-Aug-2012 12:59:55] PHP Parse error:  syntax error, unexpected '<' in /home/deonoway/public_html/paypal/button.php on line 3
+[24-Aug-2012 14:32:17] PHP Parse error:  syntax error, unexpected '@' in /home/deonoway/public_html/paypal/ipn.php on line 4
+[24-Aug-2012 14:32:53] PHP Warning:  require_once(.\init.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/deonoway/public_html/paypal/ipn.php on line 2
+[24-Aug-2012 14:32:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '.\init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/deonoway/public_html/paypal/ipn.php on line 2
+[24-Aug-2012 15:21:02] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/deonoway/public_html/paypal/ipn.php on line 54
+[24-Aug-2012 15:21:02] PHP Parse error:  syntax error, unexpected '"' in /home/deonoway/public_html/paypal/ipn.php on line 54
+[24-Aug-2012 15:41:31] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deonoway/public_html/paypal/ipn.php on line 54
+[25-Aug-2012 02:06:30] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deonoway/public_html/paypal/ipn.php on line 47
+[25-Aug-2012 02:11:46] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deonoway/public_html/paypal/ipn.php on line 44
+[25-Aug-2012 02:12:59] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/deonoway/public_html/paypal/ipn.php on line 44

@@ -1,0 +1,1 @@
+[28-Dec-2012 07:17:27] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/deonoway/public_html/functions/users.php on line 56

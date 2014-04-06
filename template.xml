@@ -1,0 +1,24 @@
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+	<creator>Bellaire And Dunn</creator>
+	<album>From Now On</album>
+	<trackList>
+		<track>
+			<location>
+				http://softwindproductions.com/NewFolkrider/Music/Artists/Bellaire_and_Dunn/From_Now_On/Hometown_Afternoon.mp3
+			</location>
+			<title>Hometown Afternoon</title>
+		</track>
+		<track>
+			<location>
+				http://softwindproductions.com/NewFolkrider/Music/Artists/Bellaire_and_Dunn/From_Now_On/From_a_Father_to_a_Son.mp3
+			</location>
+			<title>From a Father To a Son</title>
+		</track>
+		<track>
+			<location>
+				http://softwindproductions.com/NewFolkrider/Music/Artists/Bellaire_and_Dunn/From_Now_On/If_This_Old_Guitar_Could_Talk.mp3
+			</location>
+			<title>If This Old Guitar Could Talk</title>
+		</track>
+	</trackList>
+</playlist>
