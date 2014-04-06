@@ -1,3 +1,0 @@
-[18-Mar-2014 07:02:31] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/deonoway/public_html/functions/users.php on line 56
-[03-Apr-2014 17:37:20] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/deonoway/public_html/functions/users.php on line 56
-[03-Apr-2014 20:31:18] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home1/deonoway/public_html/functions/users.php on line 56
