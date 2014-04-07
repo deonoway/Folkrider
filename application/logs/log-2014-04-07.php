@@ -301,3 +301,204 @@ DEBUG - 2014-04-07 19:01:58 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-07 19:01:58 --> File loaded: application/views/home.php
 DEBUG - 2014-04-07 19:01:58 --> Final output sent to browser
 DEBUG - 2014-04-07 19:01:58 --> Total execution time: 0.1910
+DEBUG - 2014-04-07 19:17:32 --> Config Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Hooks Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Utf8 Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> UTF-8 Support Enabled
+DEBUG - 2014-04-07 19:17:32 --> URI Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Router Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> No URI present. Default controller set.
+DEBUG - 2014-04-07 19:17:32 --> Output Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Security Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Input Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-07 19:17:32 --> Language Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Loader Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> Helper loaded: html_helper
+DEBUG - 2014-04-07 19:17:32 --> Helper loaded: url_helper
+DEBUG - 2014-04-07 19:17:32 --> Helper loaded: file_helper
+DEBUG - 2014-04-07 19:17:32 --> Helper loaded: path_helper
+DEBUG - 2014-04-07 19:17:32 --> Database Driver Class Initialized
+ERROR - 2014-04-07 19:17:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\folkriderDev\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-07 19:17:32 --> Controller Class Initialized
+DEBUG - 2014-04-07 19:17:32 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-07 19:17:32 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-07 19:17:32 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-07 19:17:32 --> File loaded: application/views/home.php
+DEBUG - 2014-04-07 19:17:32 --> Final output sent to browser
+DEBUG - 2014-04-07 19:17:32 --> Total execution time: 0.2011
+DEBUG - 2014-04-07 19:18:01 --> Config Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Hooks Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Utf8 Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> UTF-8 Support Enabled
+DEBUG - 2014-04-07 19:18:01 --> URI Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Router Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Output Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Security Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Input Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-07 19:18:01 --> Language Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Loader Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Helper loaded: html_helper
+DEBUG - 2014-04-07 19:18:01 --> Helper loaded: url_helper
+DEBUG - 2014-04-07 19:18:01 --> Helper loaded: file_helper
+DEBUG - 2014-04-07 19:18:01 --> Helper loaded: path_helper
+DEBUG - 2014-04-07 19:18:01 --> Database Driver Class Initialized
+ERROR - 2014-04-07 19:18:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\folkriderDev\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-07 19:18:01 --> Controller Class Initialized
+DEBUG - 2014-04-07 19:18:01 --> Image Lib Class Initialized
+DEBUG - 2014-04-07 19:18:02 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:02 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:02 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:02 --> Helper loaded: form_helper
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/inc/header.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/15.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/14.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/13.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/12.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/11.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/10.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/9.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/8.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/7.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/6.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/5.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/4.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/3.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/2.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/1.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:02 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-07 19:18:02 --> File loaded: application/views/music.php
+DEBUG - 2014-04-07 19:18:02 --> Final output sent to browser
+DEBUG - 2014-04-07 19:18:02 --> Total execution time: 1.1146
+DEBUG - 2014-04-07 19:18:34 --> Config Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Hooks Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Utf8 Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> UTF-8 Support Enabled
+DEBUG - 2014-04-07 19:18:34 --> URI Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Router Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Output Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Security Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Input Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-07 19:18:34 --> Language Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Loader Class Initialized
+DEBUG - 2014-04-07 19:18:34 --> Helper loaded: html_helper
+DEBUG - 2014-04-07 19:18:34 --> Helper loaded: url_helper
+DEBUG - 2014-04-07 19:18:34 --> Helper loaded: file_helper
+DEBUG - 2014-04-07 19:18:34 --> Helper loaded: path_helper
+DEBUG - 2014-04-07 19:18:34 --> Database Driver Class Initialized
+ERROR - 2014-04-07 19:18:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\folkriderDev\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-07 19:18:35 --> Controller Class Initialized
+DEBUG - 2014-04-07 19:18:35 --> Image Lib Class Initialized
+DEBUG - 2014-04-07 19:18:35 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:35 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:35 --> Model Class Initialized
+DEBUG - 2014-04-07 19:18:35 --> Helper loaded: form_helper
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/inc/header.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/15.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/14.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/13.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/12.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/11.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/10.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/9.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/8.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/7.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/6.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/5.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/4.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/3.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/2.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> getimagesize(C:/xampp/htdocs/assets/image/artist/1.png): failed to open stream: No such file or directory C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 30
+ERROR - 2014-04-07 19:18:35 --> Severity: Warning  --> Division by zero C:\xampp\htdocs\folkriderDev\application\libraries\MY_Image_lib.php 46
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-07 19:18:35 --> File loaded: application/views/music.php
+DEBUG - 2014-04-07 19:18:35 --> Final output sent to browser
+DEBUG - 2014-04-07 19:18:35 --> Total execution time: 0.3824
+DEBUG - 2014-04-07 19:18:38 --> Config Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Hooks Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Utf8 Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> UTF-8 Support Enabled
+DEBUG - 2014-04-07 19:18:38 --> URI Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Router Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Output Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Security Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Input Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-07 19:18:38 --> Language Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Loader Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> Helper loaded: html_helper
+DEBUG - 2014-04-07 19:18:38 --> Helper loaded: url_helper
+DEBUG - 2014-04-07 19:18:38 --> Helper loaded: file_helper
+DEBUG - 2014-04-07 19:18:38 --> Helper loaded: path_helper
+DEBUG - 2014-04-07 19:18:38 --> Database Driver Class Initialized
+ERROR - 2014-04-07 19:18:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\folkriderDev\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-07 19:18:38 --> Controller Class Initialized
+DEBUG - 2014-04-07 19:18:38 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-07 19:18:38 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-07 19:18:38 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-07 19:18:38 --> File loaded: application/views/radio.php
+DEBUG - 2014-04-07 19:18:38 --> Final output sent to browser
+DEBUG - 2014-04-07 19:18:38 --> Total execution time: 0.2799
