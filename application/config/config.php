@@ -9,12 +9,12 @@
 | WITH a trailing slash:
 |
 |	http://example.com/
-|
+|   
 | If this is not set then CodeIgniter will guess the protocol, domain and
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://127.0.0.1/folkriderDev';
+$config['base_url']	= 'http://127.0.0.1';
 
 /*
 |---------------------------------------------------------------------------
@@ -24,7 +24,7 @@ $config['base_url']	= 'http://127.0.0.1/folkriderDev';
 | Where I'm currently storing my production assets.
 |
 */
-$config['asset_url'] = 'http://127.0.0.1/folkriderDev/assets';
+$config['asset_url'] = 'http://127.0.0.1/assets';
 
 /*
 |--------------------------------------------------------------------------
