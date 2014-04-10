@@ -1,8 +1,6 @@
 <?php
 	echo(doctype('html5'));
 
-	$this->load->helper('form');
-
 	$email = array(
 		'id' => 'from'
 		,'name' => 'from' );

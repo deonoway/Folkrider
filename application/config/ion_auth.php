@@ -13,17 +13,17 @@
 */
 $config['use_mongodb'] = FALSE;
 
-/*
-| -------------------------------------------------------------------------
-| MongoDB Collection.
-| -------------------------------------------------------------------------
-| Setup the mongodb docs using the following command:
-| $ mongorestore sql/mongo
-|
-*/
-$config['collections']['users']          = 'users';
-$config['collections']['groups']         = 'groups';
-$config['collections']['login_attempts'] = 'login_attempts';
+
+// | -------------------------------------------------------------------------
+// | MongoDB Collection.
+// | -------------------------------------------------------------------------
+// | Setup the mongodb docs using the following command:
+// | $ mongorestore sql/mongo
+// |
+
+// $config['collections']['users']          = 'users';
+// $config['collections']['groups']         = 'groups';
+// $config['collections']['login_attempts'] = 'login_attempts';
 
 /*
 | -------------------------------------------------------------------------
@@ -81,8 +81,8 @@ $config['max_rounds']     = 9;
  | The controller should check this function and act
  | appropriately. If this variable set to 0, there is no maximum.
  */
-$config['site_title']                 = "Example.com";       // Site Title, example.com
-$config['admin_email']                = "admin@example.com"; // Admin Email, admin@example.com
+$config['site_title']                 = "Folkrider.com";       // Site Title, example.com
+$config['admin_email']                = "admin@folkrider.com"; // Admin Email, admin@example.com
 $config['default_group']              = 'members';           // Default group, use name
 $config['admin_group']                = 'admin';             // Default administrators group, use name
 $config['identity']                   = 'email';             // A database column which is used to login with
