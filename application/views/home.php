@@ -14,7 +14,7 @@
 		?>
 		<br>
 		<?
-			$this->load->view('auth/login');
+			$this->load->view('auth/login', $form);
 			$this->load->view('inc/footer');
 		?>
 	</body>
