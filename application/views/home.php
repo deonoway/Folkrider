@@ -10,11 +10,12 @@
 	?>
 	<body>
 		<?
+			$CI =& get_instance();
 			$this->load->view('inc/header');
+			$CI->login();
 		?>
 		<br>
 		<?
-			$this->load->view('auth/login', $form);
 			$this->load->view('inc/footer');
 		?>
 	</body>
