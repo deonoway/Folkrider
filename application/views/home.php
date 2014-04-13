@@ -2,6 +2,7 @@
 	echo(doctype('html5'));
 	$this->lang->load('auth');
 	$this->lang->load('ion_auth');
+	$CI =& get_instance();
 ?>
 
 <html>
@@ -10,9 +11,8 @@
 	?>
 	<body>
 		<?
-			$CI =& get_instance();
 			$this->load->view('inc/header');
-			$CI->login();
+			$CI->create_user();
 		?>
 		<br>
 		<?

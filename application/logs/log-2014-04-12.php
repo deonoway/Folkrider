@@ -900,3 +900,388 @@ DEBUG - 2014-04-12 08:17:46 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-12 08:17:46 --> File loaded: application/views/home.php
 DEBUG - 2014-04-12 08:17:46 --> Final output sent to browser
 DEBUG - 2014-04-12 08:17:46 --> Total execution time: 0.2695
+DEBUG - 2014-04-12 09:40:59 --> Config Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:40:59 --> URI Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Router Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> No URI present. Default controller set.
+DEBUG - 2014-04-12 09:40:59 --> Output Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Security Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Input Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:40:59 --> Language Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:40:59 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:40:59 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:40:59 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:41:00 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:41:00 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:41:00 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:41:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:41:00 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:41:00 --> Email Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:41:00 --> Session Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:41:00 --> Session routines successfully run
+DEBUG - 2014-04-12 09:41:00 --> Model Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Model Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:41:00 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:41:00 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:41:00 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:41:00 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-12 09:41:00 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-12 09:41:00 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-12 09:41:00 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-12 09:41:00 --> File loaded: application/views/home.php
+DEBUG - 2014-04-12 09:41:00 --> Final output sent to browser
+DEBUG - 2014-04-12 09:41:00 --> Total execution time: 0.2145
+DEBUG - 2014-04-12 09:42:04 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:04 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> No URI present. Default controller set.
+DEBUG - 2014-04-12 09:42:04 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:04 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:04 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:04 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:04 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:04 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:04 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:04 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:04 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:04 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:04 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:04 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:04 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:04 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-12 09:42:04 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-12 09:42:19 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:19 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> No URI present. Default controller set.
+DEBUG - 2014-04-12 09:42:19 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:19 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:19 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:19 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:19 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:19 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:19 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:19 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:19 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:19 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:19 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:19 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:19 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:19 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:19 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-12 09:42:19 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-12 09:42:20 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:20 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:20 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:20 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:20 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:20 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:20 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:20 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:20 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:20 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:20 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:20 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:20 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:20 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:20 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:20 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:20 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:20 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:21 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:21 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:21 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:21 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:21 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:21 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:21 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:21 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:21 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:21 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:21 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:21 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-12 09:42:21 --> Final output sent to browser
+DEBUG - 2014-04-12 09:42:21 --> Total execution time: 0.3305
+DEBUG - 2014-04-12 09:42:43 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:43 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:43 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:43 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:43 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:43 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:43 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:43 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:43 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:43 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:43 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:43 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:43 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:43 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-12 09:42:43 --> Final output sent to browser
+DEBUG - 2014-04-12 09:42:43 --> Total execution time: 0.2064
+DEBUG - 2014-04-12 09:42:48 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:48 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> No URI present. Default controller set.
+DEBUG - 2014-04-12 09:42:48 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:48 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:48 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:48 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:48 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:48 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:48 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:48 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:48 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:48 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:48 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:48 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:48 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-12 09:42:48 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-12 09:42:49 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:49 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:49 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:49 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:49 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:49 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:49 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:49 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:49 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:49 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:49 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:49 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:49 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:49 --> Config Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:42:49 --> URI Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Router Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Output Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Security Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Input Class Initialized
+DEBUG - 2014-04-12 09:42:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:42:49 --> Language Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:42:50 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:42:50 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:42:50 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:42:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:42:50 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:42:50 --> Email Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:42:50 --> Session Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:42:50 --> Session routines successfully run
+DEBUG - 2014-04-12 09:42:50 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Model Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:42:50 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:42:50 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:50 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:42:50 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-12 09:42:50 --> Final output sent to browser
+DEBUG - 2014-04-12 09:42:50 --> Total execution time: 0.2330
+DEBUG - 2014-04-12 09:50:45 --> Config Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Hooks Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Utf8 Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> UTF-8 Support Enabled
+DEBUG - 2014-04-12 09:50:45 --> URI Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Router Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> No URI present. Default controller set.
+DEBUG - 2014-04-12 09:50:45 --> Output Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Security Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Input Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-12 09:50:45 --> Language Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Loader Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: html_helper
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: url_helper
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: file_helper
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: path_helper
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: language_helper
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: form_helper
+DEBUG - 2014-04-12 09:50:45 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2014-04-12 09:50:45 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2014-04-12 09:50:45 --> Database Driver Class Initialized
+ERROR - 2014-04-12 09:50:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-12 09:50:45 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2014-04-12 09:50:45 --> Email Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: cookie_helper
+DEBUG - 2014-04-12 09:50:45 --> Session Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: string_helper
+DEBUG - 2014-04-12 09:50:45 --> Session routines successfully run
+DEBUG - 2014-04-12 09:50:45 --> Model Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Model Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Helper loaded: date_helper
+DEBUG - 2014-04-12 09:50:45 --> Form Validation Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Controller Class Initialized
+DEBUG - 2014-04-12 09:50:45 --> Ion_auth class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:50:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2014-04-12 09:50:45 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-12 09:50:45 --> File loaded: application/views/inc/header.php
+ERROR - 2014-04-12 09:50:45 --> Could not find the language line "create_user_validation_phone_label"
+DEBUG - 2014-04-12 09:50:45 --> File loaded: application/views/auth/create_user.php
+DEBUG - 2014-04-12 09:50:45 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-12 09:50:45 --> File loaded: application/views/home.php
+DEBUG - 2014-04-12 09:50:45 --> Final output sent to browser
+DEBUG - 2014-04-12 09:50:45 --> Total execution time: 0.2178
