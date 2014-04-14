@@ -20,18 +20,43 @@ class Site extends CI_Controller {
 	}
 
 	public function members(){
-		$this->load->view('members');
+		if($this->session->userdata('is_logged_in')){
+			$this->load->view('members');
+		}else{
+			redirect('main/restricted');
+		}
+	}
+
+	public function restricted(){
+		$data['title']="login";
+		$this->load->view("test", $data);
 	}
 
 	public function login_validation(){
-		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|callback_validate_credentials');
 		$this->form_validation->set_rules('password', 'Password', 'required|md5');
 
 		if($this->form_validation->run()){
+			$data = array(
+				'email' => $this->input->post('email'),
+				'is_logged_in'=> 1
+				);
+			$this->session-> 
 			redirect('site/members');
 		}else{
 			$data['title']="login";
 			$this->load->view('test', $data);
+		}
+	}
+
+	public function validate_credentials(){
+		$this->load->modle('user_model');
+
+		if($this->user_model->can_log_in()){
+			return true;
+		}else{
+			$this->form_validation->set_message('validate_credentials', 'Incorrect username/password');
+			return false;
 		}
 	}
 
