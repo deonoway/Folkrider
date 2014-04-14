@@ -19,6 +19,11 @@ class Site extends CI_Controller {
 		$this->load->view("test", $data);
 	}
 
+	public function logout(){
+		$this->session->sess_destroy();
+		redirect('site/login');
+	}
+
 	public function members(){
 		if($this->session->userdata('is_logged_in')){
 			$this->load->view('members');

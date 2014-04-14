@@ -11,15 +11,9 @@
 			$this->load->view('inc/header');
 		?>
 
-		<h1>welcome to the members page</h1>
+		<h1>you do not have access to this page</h1>
 
-		<?
-			echo("<pre>");
-			print_r($this->session->all_userdata);
-			echo("</pre>");
-		?>
-
-		<a href="<?echo(base_url()."main/logout")?>">logout</a>
+		<a href="<?echo(base_url()."main/login")?>">to login</a>
 		
 		<?
 			$this->load->view('inc/footer');
