@@ -14,6 +14,11 @@ class Site extends CI_Controller {
 		$this->load->view("home", $data);
 	}
 
+	public function login(){
+		$data['title']="login";
+		$this->load->view("login" $data);
+	}
+
 	public function getValues(){
 		$this->load->model("get_db");
 
