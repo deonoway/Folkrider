@@ -1,7 +1,5 @@
 <?php
 	echo(doctype('html5'));
-	
-	$artLink=base_url("music/artist/"."$artID");
 ?>
 
 <html>

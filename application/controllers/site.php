@@ -5,7 +5,7 @@ class Site extends CI_Controller {
 
 	public function index()
 	{
-		$this->home();
+		$this->login();
 
 	}
 
@@ -16,7 +16,7 @@ class Site extends CI_Controller {
 
 	public function login(){
 		$data['title']="login";
-		$this->load->view("login" $data);
+		$this->load->view("test", $data);
 	}
 
 	public function getValues(){
