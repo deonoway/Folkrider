@@ -13,7 +13,7 @@
 
 		<h1>you do not have access to this page</h1>
 
-		<a href="<?echo(base_url()."main/login")?>">to login</a>
+		<a href="<?echo(base_url()."site/login")?>">to login</a>
 		
 		<?
 			$this->load->view('inc/footer');

@@ -896,3 +896,17 @@ DEBUG - 2014-04-14 19:09:38 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-14 19:09:38 --> File loaded: application/views/test.php
 DEBUG - 2014-04-14 19:09:38 --> Final output sent to browser
 DEBUG - 2014-04-14 19:09:38 --> Total execution time: 0.5744
+DEBUG - 2014-04-14 22:03:20 --> Config Class Initialized
+DEBUG - 2014-04-14 22:03:20 --> Hooks Class Initialized
+DEBUG - 2014-04-14 22:03:20 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 22:03:20 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 22:03:20 --> URI Class Initialized
+DEBUG - 2014-04-14 22:03:20 --> Router Class Initialized
+ERROR - 2014-04-14 22:03:20 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 22:03:21 --> Config Class Initialized
+DEBUG - 2014-04-14 22:03:21 --> Hooks Class Initialized
+DEBUG - 2014-04-14 22:03:21 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 22:03:21 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 22:03:21 --> URI Class Initialized
+DEBUG - 2014-04-14 22:03:21 --> Router Class Initialized
+ERROR - 2014-04-14 22:03:21 --> 404 Page Not Found --> announce
