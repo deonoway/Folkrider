@@ -296,3 +296,127 @@ DEBUG - 2014-04-14 15:57:17 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-14 15:57:17 --> File loaded: application/views/test.php
 DEBUG - 2014-04-14 15:57:17 --> Final output sent to browser
 DEBUG - 2014-04-14 15:57:17 --> Total execution time: 0.1413
+DEBUG - 2014-04-14 16:04:42 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:42 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:42 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:42 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:42 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:42 --> Router Class Initialized
+ERROR - 2014-04-14 16:04:42 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:04:43 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:43 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:43 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:43 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:43 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:43 --> Router Class Initialized
+ERROR - 2014-04-14 16:04:43 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:04:49 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:49 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Router Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> No URI present. Default controller set.
+DEBUG - 2014-04-14 16:04:49 --> Output Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Security Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Input Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-14 16:04:49 --> Language Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Loader Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> Helper loaded: html_helper
+DEBUG - 2014-04-14 16:04:49 --> Helper loaded: url_helper
+DEBUG - 2014-04-14 16:04:49 --> Helper loaded: file_helper
+DEBUG - 2014-04-14 16:04:49 --> Helper loaded: path_helper
+DEBUG - 2014-04-14 16:04:49 --> Helper loaded: form_helper
+DEBUG - 2014-04-14 16:04:49 --> Database Driver Class Initialized
+ERROR - 2014-04-14 16:04:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-14 16:04:49 --> Controller Class Initialized
+DEBUG - 2014-04-14 16:04:49 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-14 16:04:49 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-14 16:04:49 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-14 16:04:49 --> File loaded: application/views/test.php
+DEBUG - 2014-04-14 16:04:49 --> Final output sent to browser
+DEBUG - 2014-04-14 16:04:49 --> Total execution time: 0.2382
+DEBUG - 2014-04-14 16:04:50 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:50 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:50 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:50 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:51 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:51 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Router Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Router Class Initialized
+ERROR - 2014-04-14 16:04:51 --> 404 Page Not Found --> announce
+ERROR - 2014-04-14 16:04:51 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:04:51 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:51 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:51 --> Router Class Initialized
+ERROR - 2014-04-14 16:04:51 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:04:59 --> Config Class Initialized
+DEBUG - 2014-04-14 16:04:59 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:04:59 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:04:59 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:04:59 --> URI Class Initialized
+DEBUG - 2014-04-14 16:04:59 --> Router Class Initialized
+ERROR - 2014-04-14 16:04:59 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:05:23 --> Config Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:05:24 --> URI Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Router Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> No URI present. Default controller set.
+DEBUG - 2014-04-14 16:05:24 --> Output Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Security Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Input Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-14 16:05:24 --> Language Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Loader Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> Helper loaded: html_helper
+DEBUG - 2014-04-14 16:05:24 --> Helper loaded: url_helper
+DEBUG - 2014-04-14 16:05:24 --> Helper loaded: file_helper
+DEBUG - 2014-04-14 16:05:24 --> Helper loaded: path_helper
+DEBUG - 2014-04-14 16:05:24 --> Helper loaded: form_helper
+DEBUG - 2014-04-14 16:05:24 --> Database Driver Class Initialized
+ERROR - 2014-04-14 16:05:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-14 16:05:24 --> Controller Class Initialized
+DEBUG - 2014-04-14 16:05:24 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-14 16:05:24 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-14 16:05:24 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-14 16:05:24 --> File loaded: application/views/test.php
+DEBUG - 2014-04-14 16:05:24 --> Final output sent to browser
+DEBUG - 2014-04-14 16:05:24 --> Total execution time: 0.3637
+DEBUG - 2014-04-14 16:07:04 --> Config Class Initialized
+DEBUG - 2014-04-14 16:07:04 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:07:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:07:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:07:04 --> URI Class Initialized
+DEBUG - 2014-04-14 16:07:04 --> Router Class Initialized
+ERROR - 2014-04-14 16:07:04 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:07:05 --> Config Class Initialized
+DEBUG - 2014-04-14 16:07:05 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:07:05 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:07:05 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:07:05 --> URI Class Initialized
+DEBUG - 2014-04-14 16:07:05 --> Router Class Initialized
+ERROR - 2014-04-14 16:07:05 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:07:08 --> Config Class Initialized
+DEBUG - 2014-04-14 16:07:08 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:07:08 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:07:08 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:07:08 --> URI Class Initialized
+DEBUG - 2014-04-14 16:07:08 --> Router Class Initialized
+ERROR - 2014-04-14 16:07:08 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 16:07:09 --> Config Class Initialized
+DEBUG - 2014-04-14 16:07:09 --> Hooks Class Initialized
+DEBUG - 2014-04-14 16:07:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 16:07:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 16:07:09 --> URI Class Initialized
+DEBUG - 2014-04-14 16:07:09 --> Router Class Initialized
+ERROR - 2014-04-14 16:07:09 --> 404 Page Not Found --> announce

@@ -10,6 +10,25 @@
 		<?
 			$this->load->view('inc/header');
 		?>
+
+		<?
+			echo(form_open('site/login_validation'));
+
+			echo("<p>Email");
+			echo(form_input('email'));
+			echo("</p>");
+
+			echo("<p>Password");
+			echo(form_password('password'));
+			echo("</p>");
+
+			echo("<p>");
+			echo(form_submit('login_submit', 'Login'));
+			echo("</p>");
+			
+			echo(form_close());
+		?>
+		
 		<?
 			$this->load->view('inc/footer');
 		?>

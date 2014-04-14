@@ -19,6 +19,10 @@ class Site extends CI_Controller {
 		$this->load->view("test", $data);
 	}
 
+	public function login_validation(){
+		
+	}
+
 	public function getValues(){
 		$this->load->model("get_db");
 
