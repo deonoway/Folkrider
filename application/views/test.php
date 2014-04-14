@@ -14,6 +14,8 @@
 		<?
 			echo(form_open('site/login_validation'));
 
+			echo(validation_errors());
+
 			echo("<p>Email");
 			echo(form_input('email'));
 			echo("</p>");
