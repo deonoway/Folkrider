@@ -12,7 +12,7 @@
 		?>
 
 		<?
-			echo(form_open('site/login_validation'));
+			echo(form_open('site/signup_validation'));
 
 			echo(validation_errors());
 
@@ -35,7 +35,7 @@
 			echo(form_close());
 		?>
 		
-		<a href="<?echo(base_url()."site/signup")?>"></a>
+		<a href="<?echo(base_url()."site/signup_validation")?>">this</a>
 
 		<?
 			$this->load->view('inc/footer');

@@ -14,7 +14,7 @@ class user_model extends CI_Model{
 		}
 	}
 
-	public function add_temp_users($key){
+	public function add_temp_user($key){
 		$data = array(
 			'email'=> $this->input->post('email')
 			,'password'=> md5($this->input->post('password'))
@@ -30,10 +30,10 @@ class user_model extends CI_Model{
 	}
 
 	public function is_key_valid($key){
-		$this->db->where('key', $key)
+		$this->db->where('key', $key);
 		$query = $this->db->get('temp_users');
 
-		if($->num_rows() == 1){
+		if($query->num_rows() == 1){
 			return true;
 		}else{
 			return false;
@@ -41,7 +41,7 @@ class user_model extends CI_Model{
 	}
 
 	public function add_user($key){
-		$this->db->where('key', $key)
+		$this->db->where('key', $key);
 		$temp_user = $this->db->get('temp_users');
 
 		if($query){
@@ -52,13 +52,13 @@ class user_model extends CI_Model{
 				'password' => $row->password
 			);
 
-			$added_user = $this->db->insert('user', $data);
+			$added_user = $this->db->insert('users', $data);
 
 			if($added_user){
 				$this->db->where('key'. $key);
 				$this->db->delete('temp_user');
 
-				return true;
+				return $data['email'];
 			}else{
 				return false;
 			}
