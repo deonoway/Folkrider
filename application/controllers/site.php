@@ -113,4 +113,16 @@ class Site extends CI_Controller {
 
 		$this->load->view("view_db", $data);
 	}
+
+	public function register_users($key){
+		$thsi->load->model('user_model');
+
+		if($this->user_model->is_key_valid($key)){
+			if($this->user_model->add_user($key)){
+				echo "win";
+			}else{
+				echo "fail";
+			}
+		}
+	}
 }

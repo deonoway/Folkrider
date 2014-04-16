@@ -28,4 +28,40 @@ class user_model extends CI_Model{
 			return false;
 		}
 	}
+
+	public function is_key_valid($key){
+		$this->db->where('key', $key)
+		$query = $this->db->get('temp_users');
+
+		if($->num_rows() == 1){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	public function add_user($key){
+		$this->db->where('key', $key)
+		$temp_user = $this->db->get('temp_users');
+
+		if($query){
+			$row = $temp_user->row();
+
+			$data = array(
+				'email' => $row->email,
+				'password' => $row->password
+			);
+
+			$added_user = $this->db->insert('user', $data);
+
+			if($added_user){
+				$this->db->where('key'. $key);
+				$this->db->delete('temp_user');
+
+				return true;
+			}else{
+				return false;
+			}
+		}
+	}
 }
