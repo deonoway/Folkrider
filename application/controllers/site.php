@@ -60,16 +60,35 @@ class Site extends CI_Controller {
 
 	public function signup_validation(){
 		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|callback_validate_credentials|valid_email|is_unique[users.email]');
+
 		$this->form_validation->set_rules('password', 'Password', 'required');
 		$this->form_validation->set_rules('cpassword', 'Confirm Password', 'required|md5|matches[password]');
 
+		$this->form_validation->set_message("is_unique", "That email address is already in use");
 		if($this->form_validation->run()){
-			$data = array(
-				'email' => $this->input->post('email'),
-				'is_logged_in'=> 1
-				);
-			$this->session-> 
-			redirect('site/members');
+			//generate random key
+			$key = md5(uniqid());
+
+
+			//send email to the user
+
+			$message = "<p>Thank you for signing up</p>";
+			$message = "<p><a href='".base_url()."/site/register_users/$key'>click here</a> to confirm your account"
+
+			$this->email->from('no-reply@folkrider.com', 'Richard');
+			$this->email->to($this->input->post('email'));
+			$thsi->email->subject("Confirm your account");
+			$this->email->message($message);
+
+			if($this->user_model->add_temp_user($key)){
+				if($this->email->send()){
+
+				}	
+			}
+			
+			//add them to the tmp users db
+			$this->
+		
 		}else{
 			$data['title']="login";
 			$this->load->view('sign_up', $data);

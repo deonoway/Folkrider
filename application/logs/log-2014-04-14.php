@@ -910,3 +910,17 @@ DEBUG - 2014-04-14 22:03:21 --> UTF-8 Support Enabled
 DEBUG - 2014-04-14 22:03:21 --> URI Class Initialized
 DEBUG - 2014-04-14 22:03:21 --> Router Class Initialized
 ERROR - 2014-04-14 22:03:21 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 23:40:56 --> Config Class Initialized
+DEBUG - 2014-04-14 23:40:56 --> Hooks Class Initialized
+DEBUG - 2014-04-14 23:40:56 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 23:40:56 --> URI Class Initialized
+DEBUG - 2014-04-14 23:40:56 --> Router Class Initialized
+ERROR - 2014-04-14 23:40:56 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-14 23:40:57 --> Config Class Initialized
+DEBUG - 2014-04-14 23:40:57 --> Hooks Class Initialized
+DEBUG - 2014-04-14 23:40:57 --> Utf8 Class Initialized
+DEBUG - 2014-04-14 23:40:57 --> UTF-8 Support Enabled
+DEBUG - 2014-04-14 23:40:57 --> URI Class Initialized
+DEBUG - 2014-04-14 23:40:57 --> Router Class Initialized
+ERROR - 2014-04-14 23:40:57 --> 404 Page Not Found --> announce
