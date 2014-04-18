@@ -10,9 +10,11 @@
 		<?
 			$this->load->view('inc/header');
 		
-		echo("<p>");
-		echo("$content");
-		echo("</p>");
+		echo(
+			"<div>"
+				.$content
+			."</div>"
+		);
 
 			$this->load->view('inc/footer');
 		?>

@@ -5,144 +5,78 @@ class Test extends CI_Controller {
 
 	public function index()
 	{
-		$this->main();
+		$this->signup();
+
 	}
 
-	public function working(){
-		$data['title']='test';
+	public function home(){
+		$data['title']="Folkrider";
+		$this->load->view("home", $data);
+	}
+
+	public function login(){
+		$data['title']="login";
 		$this->load->view("test", $data);
 	}
 
-	public function main(){
-		$this->load->library('image_lib');
+	public function logout(){
+		$this->session->sess_destroy();
+		redirect('site/login');
+	}
 
-		$data['title']='Please enjoy our catalog';
+	public function signup(){
+		$data['title'] = 'sign up';
+		$this->load->view('sign_up', $data);
+	}
 
-		$this->load->model("cat_man");
-		$this->load->model("resource");
-
-		$numOf=$this->cat_man->getArt('`ID`','`active`','1','`ID`','DESC');
-
-		for ($i=0; $i < sizeof($numOf); $i++) {
-
-			$art=$this->cat_man->getArt('`name`, `featuredSongID`, `ID`','`ID`',$numOf[$i]->ID);
-
-			$song=$this->cat_man->getSong('`name`, `albumID`, `ID`','`ID`',$art[0]->featuredSongID);
-
-			$album=$this->cat_man->getAlb('`title`, `ID`','`ID`',$song[0]->albumID);
-
-			$data['entry'][$i]['name'] = $art[0]->name;
-			$data['entry'][$i]['artID'] = $art[0]->ID;
-			$data['entry'][$i]['alb'] = $album[0]->ID;
-			$data['entry'][$i]['mp3'] = $song[0]->ID;
+	public function members(){
+		if($this->session->userdata('is_logged_in')){
+			$data['title'] = 'members area';
+			$this->load->view('members', $data);
+		}else{
+			redirect('site/restricted');
 		}
+	}
+
+	public function restricted(){
+		$data['title']="login";
 		$this->load->view("test", $data);
 	}
 
-	public function artist($id=NULL){
-		$this->load->library('image_lib');
+	public function validate_credentials(){
+		$this->load->model('user_model');
 
-		$this->load->model("cat_man");
-		$this->load->model("resource");
-
-		if ($id!=NULL) {
-
-			$art=$this->cat_man->getArt('`name`','`ID`',$id);
-			$albs=$this->cat_man->getAlb('`title`,`ID`','`artistID`',$id,'`ID`','ASC');
-			// $mp3=$this->cat_man->getSong('`name`', `'artistID'`,);
-
-			$data['artist']=($art[0]->name);
-			$data['title']=($art[0]->name);
-
-			for ($i=0; $i < sizeof($albs); $i++) {
-				$data['album'][$i]=($albs[$i]->title);
-				$data['albID'][$i]=($albs[$i]->ID);
-			}
-
-			$this->load->view("test", $data);
+		if($this->user_model->can_log_in()){
+			return true;
 		}else{
-
-			$data['title']='Ordered by artist';
-
-			$numOf=$this->cat_man->getArt('`ID`,`name`','`active`','1','`name`','ASC');
-
-			for ($i=0; $i < sizeof($numOf); $i++) {
-				$data['entry'][$i]['name'] = $numOf[$i]->name;
-				$data['entry'][$i]['ID'] = $numOf[$i]->ID;
-			}
-			$this->load->view("test", $data);
+			$this->form_validation->set_message('validate_credentials', 'Incorrect username/password');
+			return false;
 		}
 	}
 
-	public function album($id=NULL){
-		$this->load->library('image_lib');
+	public function getValues(){
+		$this->load->model("get_db");
 
-		$this->load->model("cat_man");
-		$this->load->model("resource");
+		$data['results'] = $this->get_db->getAll();
 
-		if ($id!=NULL) {
-
-			$album=$this->cat_man->getAlb('`title`,`artistID`,`ID`','`ID`',$id);
-			$art=$this->cat_man->getArt('`name`','`ID`', $album[0]->artistID);
-			$mp3=$this->cat_man->getSong('`name`,`ID`', '`albumID`', $album[0]->ID);
-
-			// print_r($mp3);
-
-			$data['title']=($album[0]->title);
-			$data['ID']=($album[0]->ID);
-			$data['artist']=($art[0]->name);
-			$data['artID']=($album[0]->artistID);
-
-			for ($i=0; $i < sizeof($mp3); $i++) {
-				$data['mp3']['name'][$i]=($mp3[$i]->name);
-				$data['mp3']['ID'][$i]=($mp3[$i]->ID);
-			}
-
-			$this->load->view("test", $data);
-		}else{
-
-			$data['title']='Ordered by album';
-
-			$numOf=$this->cat_man->getAlb('`ID`,`title`,`artistID`','`active`','1','`title`','ASC');
-
-			for ($i=0; $i < sizeof($numOf); $i++) {
-
-				$art=$this->cat_man->getArt('`name`,`ID`','`ID`',$numOf[$i]->artistID);
-
-				$data['entry'][$i]['name'] = $art[0]->name;
-				$data['entry'][$i]['artID'] = $art[0]->ID;
-				$data['entry'][$i]['alb'] = $numOf[$i]->title;
-				$data['entry'][$i]['albID'] = $numOf[$i]->ID;
-			}
-			$this->load->view("test", $data);
-		}
+		$this->load->view("view_db", $data);
 	}
 
-	public function song(){
+	public function register_users($key){
+		$thsi->load->model('user_model');
 
-		$data['title']='Ordered by album';
+		if($this->user_model->is_key_valid($key)){
+			if($email = $this->user_model->add_user($key)){
+				$date = array(
+					'email' => $email,
+					'is_logged_in' => 1
+				);
 
-		$this->load->model("cat_man");
-
-		$numOf=$this->cat_man->getSong('`ID`','`active`','1','`name`','ASC');
-
-		for ($i=0; $i < sizeof($numOf); $i++) {
-
-			$song=$this->cat_man->getSong('`name`,`artistID`,`albumID`','`ID`',$numOf[$i]->ID);
-			$art=$this->cat_man->getArt('`name`','`ID`',$song[0]->artistID);
-			$album=$this->cat_man->getAlb('`title`','`ID`',$song[0]->albumID);
-
-			$data['entry'][$i]['name'] = $art[0]->name;
-			$data['entry'][$i]['artID'] = $song[0]->artistID;
-			$data['entry'][$i]['alb'] = $album[0]->title;
-			$data['entry'][$i]['albID'] = $song[0]->albumID;
-			$data['entry'][$i]['song'] = $song[0]->name;
+				$this->session->set_userdata($data);
+				redirect('site/members');
+			}else{
+				echo "fail";
+			}
 		}
-		$this->load->view("song", $data);
-	}
-
-	public function radio(){
-		$data['title']="Folkrider Radio";
-		$this->load->view("radio", $data);
 	}
 }

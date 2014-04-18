@@ -1,32 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Site extends CI_Controller {
-
-
-	public function index()
-	{
-		$this->home();
-
-	}
-
-	public function home(){
-		$data['title']="Folkrider";
-		$this->load->view("home", $data);
-	}
-
-	public function login(){
-		$data['title']="login";
-		$this->load->view("test", $data);
-	}
+class Auth extends CI_Controller {
 
 	public function logout(){
 		$this->session->sess_destroy();
-		redirect('site/login');
-	}
-
-	public function signup(){
-		$data['title'] = 'sign up';
-		$this->load->view('sign_up', $data);
+		redirect('site');
 	}
 
 	public function members(){
@@ -40,7 +18,8 @@ class Site extends CI_Controller {
 
 	public function restricted(){
 		$data['title']="login";
-		$this->load->view("test", $data);
+		$data['error']="this page is in our members area";
+		$this->load->view('logfailed', $data);
 	}
 
 	public function login_validation(){
@@ -56,7 +35,8 @@ class Site extends CI_Controller {
 			redirect('site/members');
 		}else{
 			$data['title']="login";
-			$this->load->view('login', $data);
+			$data['error']="your login attempt has failed";
+			$this->load->view('logfailed', $data);
 		}
 	}
 
