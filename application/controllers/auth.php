@@ -7,15 +7,6 @@ class Auth extends CI_Controller {
 		redirect('site');
 	}
 
-	public function members(){
-		if($this->session->userdata('is_logged_in')){
-			$data['title'] = 'members area';
-			$this->load->view('members', $data);
-		}else{
-			redirect('site/restricted');
-		}
-	}
-
 	public function restricted(){
 		$data['title']="login";
 		$data['error']="this page is in our members area";
@@ -32,7 +23,7 @@ class Auth extends CI_Controller {
 				'is_logged_in'=> 1
 				);
 			$this->session->set_userdata($data);
-			redirect('site/members');
+			redirect('music');
 		}else{
 			$data['title']="login";
 			$data['error']="your login attempt has failed";
@@ -41,39 +32,26 @@ class Auth extends CI_Controller {
 	}
 
 	public function signup_validation(){
-		$this->load->model('user_model');
 
-		//$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|callback_validate_credentials|valid_email|is_unique[users.email]');
+		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|callback_validate_credentials|valid_email|is_unique[users.email]');
 
 		$this->form_validation->set_rules('password', 'Password', 'required');
 		$this->form_validation->set_rules('cpassword', 'Confirm Password', 'required|matches[password]');
 
+		$this->form_validation->set_rules('displayName', 'xss_clean');
+		$this->form_validation->set_rules('firstName','xss_clean');
+
 		$this->form_validation->set_message("is_unique", "That email address is already in use");
+
 		if($this->form_validation->run()){
-			//generate random key
-			$key = md5(uniqid());
-
-
-			//send email to the user
-			$message = "<p>Thank you for signing up</p>";
-			$message = "<p><a href='".base_url()."/site/register_users/$key'>click here</a> to confirm your account";
-
-			$this->email->from('no-reply@folkrider.com', 'Richard');
-			$this->email->to($this->input->post('email'));
-			$this->email->subject("Confirm your account");
-			$this->email->message($message);
 			
 			//add them to the tmp users db
-			if($this->user_model->add_temp_user($key)){
-				if($this->email->send()){
-					$data['title']="thank you for registering";
+			if($this->user_model->add_temp_user()){
+				$data['title']="thank you for registering";
 
-					$data['content']="plaese check your email for our message";
+				$data['content']="plaese check your email for our message";
 
-					$this->load->view("temp", $data);
-				}else{
-					echo("email not sent");
-				}
+				$this->load->view("temp", $data);
 			}else{
 				echo("not added to temp database");
 			}
@@ -85,7 +63,6 @@ class Auth extends CI_Controller {
 	}
 
 	public function validate_credentials(){
-		$this->load->model('user_model');
 
 		if($this->user_model->can_log_in()){
 			return true;

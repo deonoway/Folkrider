@@ -14,11 +14,12 @@ class user_model extends CI_Model{
 		}
 	}
 
-	public function add_temp_user($key){
+	public function add_temp_user(){
 		$data = array(
 			'email'=> $this->input->post('email')
 			,'password'=> md5($this->input->post('password'))
-			,'key'=> $key
+			,'display_name'=> $this->input->post('displayName')
+			,'first_name'=> $this->input->post('firstName')
 		);
 
 		$query = $this->db->insert('temp_users', $data);
