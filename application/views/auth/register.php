@@ -1,7 +1,7 @@
 <div id='register'>
 <?
 	echo(
-		form_open('site/signup_validation')
+		form_open('auth/signup_validation')
 			.validation_errors()
 			."<p>
 				*Email <span>please use the same email as your payment method</span><br>"

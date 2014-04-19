@@ -33,7 +33,7 @@ class Auth extends CI_Controller {
 
 	public function signup_validation(){
 
-		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|callback_validate_credentials|valid_email|is_unique[users.email]');
+		$this->form_validation->set_rules('email', 'Email', 'required|trim|xss_clean|valid_email|is_unique[users.email]');
 
 		$this->form_validation->set_rules('password', 'Password', 'required');
 		$this->form_validation->set_rules('cpassword', 'Confirm Password', 'required|matches[password]');
