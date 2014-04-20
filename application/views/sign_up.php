@@ -12,9 +12,9 @@
 		?>
 
 		<?
-			$this->load->view('auth/login');
+			$this->load->view('auth/register');
 		?>
-
+		
 		<?
 			$this->load->view('inc/footer');
 		?>

@@ -11,10 +11,10 @@
 			$this->load->view('inc/header');
 		?>
 
-		<?
-			$this->load->view('auth/login');
-		?>
+		<h1>you do not have access to this page</h1>
 
+		<a href="<?echo(base_url()."site/login")?>">to login</a>
+		
 		<?
 			$this->load->view('inc/footer');
 		?>

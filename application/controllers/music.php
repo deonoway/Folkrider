@@ -38,6 +38,7 @@ class Music extends CI_Controller {
 
 		$this->load->model("cat_man");
 		$this->load->model("resource");
+		$this->auth_lib->protect();
 
 		if ($id!=NULL) {
 
@@ -79,6 +80,7 @@ class Music extends CI_Controller {
 
 		$this->load->model("cat_man");
 		$this->load->model("resource");
+		$this->auth_lib->protect();
 
 		if ($id!=NULL) {
 
@@ -127,6 +129,7 @@ class Music extends CI_Controller {
 	public function song(){
 		$this->load->model("cat_man");
 		$this->load->model("resource");
+		$this->auth_lib->protect();
 
 		$data['title']='Ordered by song';
 

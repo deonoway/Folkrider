@@ -9,13 +9,13 @@
 	<body>
 		<?
 			$this->load->view('inc/header');
-		?>
+		
+		echo(
+			"<div>"
+				.$content
+			."</div>"
+		);
 
-		<?
-			$this->load->view('auth/login');
-		?>
-
-		<?
 			$this->load->view('inc/footer');
 		?>
 	</body>
