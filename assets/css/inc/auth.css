@@ -1,0 +1,24 @@
+#login{}
+
+#login div{
+	display: inline-block;	
+}
+
+#loginForm{
+	width: 200px;
+	padding: 20px;
+}
+
+#loginForm h3{
+	text-align: center;
+}
+
+#paypal{}
+
+#register{}
+
+#regLink{
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+}

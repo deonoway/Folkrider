@@ -3,6 +3,7 @@
 @import url("inc/footer.css");
 @import url("inc/entrys.css");
 @import url("inc/page.css");
+@import url("inc/auth.css");
 
 html{
 	background: #116C46;
