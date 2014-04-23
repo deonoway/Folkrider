@@ -1,7 +1,7 @@
 <div id="loginForm">
 <?
 	echo(
-		"<h3>Log In</h3>"
+		"<h4>Log In</h4>"
 		.form_open('auth/login_validation')
 			.validation_errors()
 			."<p>

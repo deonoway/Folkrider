@@ -1,12 +1,30 @@
-#login{}
+#login{
+	width: 500px;
+	height: 135px;
+	padding: 1px 45px;
+	text-align: center;
+}
 
-#login div{
-	display: inline-block;	
+#login h5{
+	margin: 55px 0;
+}
+
+#login #regLink{
+	margin-top: 50px;
+}
+
+#login span{
+	margin-top: 50px;
+}
+
+#login span{
+	margin-top: 75px;
 }
 
 #loginForm{
-	width: 200px;
-	padding: 20px;
+	width:160px;
+	float: left;
+	text-align: left;
 }
 
 #loginForm h3{
@@ -19,6 +37,6 @@
 
 #regLink{
 	width: 200px;
-	padding: 20px;
 	text-align: center;
+	float: right;
 }

@@ -11,11 +11,12 @@
 			$this->load->view('inc/header');
 		?>
 		<div id="newInside">
-			<h3>What's new inside</h3>
+			<h3>What's new Inside</h3>
 		</div>
 		<div id="radioLink">
 			<p>for a sample of what's inside please enjoy our radio station</p>
 		</div>
+		<h3>To Enjoy Hours of Quality Folk Music</h3>
 		<?
 			$this->load->view('auth/login');
 		?>
