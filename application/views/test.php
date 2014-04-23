@@ -12,7 +12,7 @@
 		?>
 
 		<?
-			$this->load->view('auth/login');
+			
 		?>
 
 		<?

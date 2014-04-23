@@ -79,22 +79,4 @@ class Auth extends CI_Controller {
 
 		$this->load->view("view_db", $data);
 	}
-
-	public function register_users($key){
-		$thsi->load->model('user_model');
-
-		if($this->user_model->is_key_valid($key)){
-			if($email = $this->user_model->add_user($key)){
-				$date = array(
-					'email' => $email,
-					'is_logged_in' => 1
-				);
-
-				$this->session->set_userdata($data);
-				redirect('site/members');
-			}else{
-				echo "fail";
-			}
-		}
-	}
 }

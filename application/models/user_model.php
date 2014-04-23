@@ -41,27 +41,45 @@ class user_model extends CI_Model{
 		}
 	}
 
-	public function add_user($key){
-		$this->db->where('key', $key);
-		$temp_user = $this->db->get('temp_users');
+	public function activate_user($email){
+		$prep = "\"$email\"";
+		//check if email matches an email in the temp users table
+		$query = $this->db->query("SELECT * FROM temp_user WHERE `email` = $prep");
+		if($query->num_rows() > 0){
+			//retrieve information from temp users stable (except id)
+			$this->db->start_cache();
 
-		if($query){
-			$row = $temp_user->row();
+			$this->db->where('email', $email);
 
-			$data = array(
-				'email' => $row->email,
-				'password' => $row->password
-			);
+			$this->db->stop_cache();
 
-			$added_user = $this->db->insert('users', $data);
-
-			if($added_user){
-				$this->db->where('key'. $key);
-				$this->db->delete('temp_user');
-
-				return $data['email'];
-			}else{
-				return false;
+			$old = $this->db->get('temp_user');
+			
+			$this->db->flush_cache();
+			if($old->num_rows() > 0){
+				//store information from temp users in new variable
+				$new = $old->result_array();
+				$insert['email']	=$new[0]['email'];
+				$insert['password']	=$new[0]['password'];
+				$insert['display_name']	=$new[0]['display_name'];
+				$insert['first_name']	=$new[0]['first_name'];
+				
+				//add information to perm user table
+				$this->db->start_cache();
+				$this->db->set($insert);
+				$this->db->stop_cache();
+				
+				$this->db->insert('user');
+				
+				$this->db->flush_cache();
+				
+				//change active status in temp_user table
+				$this->db->start_cache();
+				$this->db->set('is_active', 1);
+				$this->db->where('email', $email);
+				$this->db->stop_cache();
+				$this->db->update('temp_user');
+				
 			}
 		}
 	}
