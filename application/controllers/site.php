@@ -13,4 +13,9 @@ class Site extends CI_Controller {
 		$data['title']="Folkrider";
 		$this->load->view("home", $data);
 	}
+	
+	public function thankYou(){
+		$data['title']='Thank you';
+		$this->load->view("thankyou", $data);
+	}
 }
