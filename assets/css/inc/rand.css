@@ -48,3 +48,39 @@
 }
 
 /* Folkrider radio*/
+
+#radio{
+	width: 550px;
+	margin: 0 auto;
+}
+
+#radio #player{
+	width: 300px;
+	height: 155px;
+	margin: 0 auto;
+}
+
+#radio img{
+	float: left;
+	padding: 10px;
+}
+
+#radio #container{
+	margin: 0 auto;
+	width: 500px;
+	padding: 50px;
+}
+
+#radio #container p{
+	display: inline-block;
+	width: 200px;
+}
+
+#radio #container div{
+	display: inline-block;
+	width: 200px;
+}
+
+#radio h3{
+	clear: both;
+}
