@@ -4,6 +4,9 @@
 @import url("inc/entrys.css");
 @import url("inc/page.css");
 @import url("inc/auth.css");
+@import url("inc/rand.css");
+
+/*Site wide styling*/
 
 html{
 	background: #116C46;
@@ -18,6 +21,10 @@ body{
 	font-size: 18px;
 	border: 10px solid #F9F4C4;
 	position: relative;
+}
+
+a{
+	font-weight: bold;
 }
 
 a:link 
