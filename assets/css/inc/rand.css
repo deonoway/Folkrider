@@ -29,6 +29,14 @@
 
 /* Folkrider main page*/
 
+#newInside{
+	width:575px;
+	height: 275px;
+	border: 5px solid #116C46;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+
 #radioLink{
 	height: 100px;
 	width: 210px;
