@@ -27,6 +27,8 @@
 	color: #F9F4C4;
 }
 
+
+
 /* Folkrider main page*/
 
 #newInside{
@@ -46,6 +48,8 @@
 #radioLink img{
 	float: right;
 }
+
+
 
 /* Folkrider radio*/
 
@@ -84,3 +88,7 @@
 #radio h3{
 	clear: both;
 }
+
+
+
+/* styles for FAQ */

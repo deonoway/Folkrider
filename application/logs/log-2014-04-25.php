@@ -210,3 +210,89 @@ DEBUG - 2014-04-25 01:53:58 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-25 01:53:58 --> File loaded: application/views/home.php
 DEBUG - 2014-04-25 01:53:59 --> Final output sent to browser
 DEBUG - 2014-04-25 01:53:59 --> Total execution time: 1.9026
+DEBUG - 2014-04-25 18:09:58 --> Config Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Hooks Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Utf8 Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> UTF-8 Support Enabled
+DEBUG - 2014-04-25 18:09:58 --> URI Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Router Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Output Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Security Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Input Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-25 18:09:58 --> Language Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Loader Class Initialized
+DEBUG - 2014-04-25 18:09:58 --> Helper loaded: html_helper
+DEBUG - 2014-04-25 18:09:58 --> Helper loaded: url_helper
+DEBUG - 2014-04-25 18:09:58 --> Helper loaded: file_helper
+DEBUG - 2014-04-25 18:09:58 --> Helper loaded: path_helper
+DEBUG - 2014-04-25 18:09:58 --> Helper loaded: form_helper
+DEBUG - 2014-04-25 18:09:58 --> Database Driver Class Initialized
+ERROR - 2014-04-25 18:09:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-25 18:09:59 --> Form Validation Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> Session Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> Helper loaded: string_helper
+DEBUG - 2014-04-25 18:09:59 --> A session cookie was not found.
+DEBUG - 2014-04-25 18:09:59 --> Session routines successfully run
+DEBUG - 2014-04-25 18:09:59 --> Email Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> Model Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> Model Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> Controller Class Initialized
+DEBUG - 2014-04-25 18:09:59 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-25 18:09:59 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-25 18:09:59 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-25 18:09:59 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-25 18:09:59 --> File loaded: application/views/radio.php
+DEBUG - 2014-04-25 18:09:59 --> Final output sent to browser
+DEBUG - 2014-04-25 18:09:59 --> Total execution time: 0.3675
+DEBUG - 2014-04-25 18:10:49 --> Config Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Hooks Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Utf8 Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> UTF-8 Support Enabled
+DEBUG - 2014-04-25 18:10:49 --> URI Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Router Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Output Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Security Class Initialized
+DEBUG - 2014-04-25 18:10:49 --> Input Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-25 18:10:50 --> Language Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Loader Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: html_helper
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: url_helper
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: file_helper
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: path_helper
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: form_helper
+DEBUG - 2014-04-25 18:10:50 --> Database Driver Class Initialized
+ERROR - 2014-04-25 18:10:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-25 18:10:50 --> Form Validation Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Session Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Helper loaded: string_helper
+DEBUG - 2014-04-25 18:10:50 --> Session routines successfully run
+DEBUG - 2014-04-25 18:10:50 --> Email Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Model Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Model Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Controller Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Image Lib Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Model Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> Model Class Initialized
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:50 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-25 18:10:51 --> File loaded: application/views/music.php
+DEBUG - 2014-04-25 18:10:51 --> Final output sent to browser
+DEBUG - 2014-04-25 18:10:51 --> Total execution time: 1.5929
