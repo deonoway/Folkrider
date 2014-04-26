@@ -24,6 +24,9 @@
 				</ul>
 			</li>
 			<li>
+				<a href="<?php echo(base_url('site/faq'))?>">FAQ</a>
+			</li>
+			<li>
 				<a href="<?php echo(base_url('contact'))?>">Contact</a>
 			</li>
 		</ul>

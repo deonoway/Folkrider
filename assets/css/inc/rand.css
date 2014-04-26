@@ -92,3 +92,32 @@
 
 
 /* styles for FAQ */
+
+#faq{
+	width: 500px;
+	margin: 2px auto;
+}
+
+#faq>div{
+	border: 1px solid #116C46;
+	padding: 10px;
+}
+
+#faq span{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+
+.question{
+	padding-bottom: 20px;
+	font-size: 25px;
+}
+
+.answer{
+}
+
+#faq th{
+	vertical-align: middle;
+	padding-right: 10px;
+}
