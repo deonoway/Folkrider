@@ -10,7 +10,7 @@
 		<?
 			$this->load->view('inc/header');
 		?>
-
+			<h3>Step 1: Register your user information</h3>
 		<?
 			$this->load->view('auth/register');
 		?>

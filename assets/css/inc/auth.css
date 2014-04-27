@@ -1,5 +1,15 @@
 /*styling related to the regestration system*/
 
+.errors{
+	height: 50px;
+}
+
+.errors>p {
+	font-size: 80%;
+}
+
+
+/*styling for login pages*/
 #login{
 	width: 500px;
 	height: 170px;
@@ -33,27 +43,41 @@
 	text-align: center;
 }
 
-#paypal{}
+#regLink{
+	width: 200px;
+	text-align: center;
+	float: right;
+}
+
+
+
+/*styles for regestration and payment pages*/
 
 #register {
 	width: 400px;
 	margin: 10px auto;
 }
 
-.errors{
-	height: 50px;
+#paypage{
+	width: 600px;
+	margin: 10px auto;
 }
 
-.errors>p {
-	font-size: 80%;
+#paypage h3{
+	text-align: left;
+}
+
+#paypage span{
+	padding-left: 40px;
+	font-size: 90%;
+}
+
+#paypal{
+	height: 50px;
+	width: 180px;
+	margin: 30px auto;
 }
 
 #register>form>div {
 	font-size: 80%;
-}
-
-#regLink{
-	width: 200px;
-	text-align: center;
-	float: right;
 }

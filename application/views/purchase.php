@@ -10,10 +10,14 @@
 		<?
 			$this->load->view('inc/header');
 		?>
-			<div>
-				<h2>Step 3: Enjoy all that Folkrider has to offer</h2>
-				<h3>Thank you for becoming a Folkrider</h3>
-			</div>
+		<div id="paypage">
+			<h3>Step 2: <br><span>Purchase a membership for $12, to activate your account</span></h3>
+			<?
+				$this->load->view('auth/paypal');
+			?>
+
+		</div>
+
 		<?
 			$this->load->view('inc/footer');
 		?>
