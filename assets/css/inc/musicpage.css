@@ -57,10 +57,9 @@
 	padding:10px;
 }
 
-/*Folkrider Song page styling*/
-
 #songList{
 	text-align:left;
 	color:#F9F4C4;
 	background:#116C46;
+	margin-bottom: 15px;
 }
