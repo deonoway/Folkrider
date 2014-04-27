@@ -9,13 +9,16 @@
 	<body>
 		<?
 			$this->load->view('inc/header');
-		
-		echo(
-			"<div id='temp'>"
-				.$content
-			."</div>"
-		);
+		?>
+		<div id="paypage">
+			<h3>Step 2: <br><span>Purchase a membership for $12, to activate your account</span></h3>
+			<?
+				$this->load->view('auth/paypal');
+			?>
 
+		</div>
+
+		<?
 			$this->load->view('inc/footer');
 		?>
 	</body>

@@ -9,13 +9,15 @@
 	<body>
 		<?
 			$this->load->view('inc/header');
-
+		?>
+		<div id="restricted">
+		<?
 			echo("<p>We're sorry, ".$error."</p>");
 		
 			$this->load->view('auth/login');
-
-			$this->load->view('auth/reglink');
-
+		?>
+		</div>
+		<?
 			$this->load->view('inc/footer');
 		?>
 	</body>

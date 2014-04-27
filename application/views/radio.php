@@ -10,7 +10,26 @@
 		<?
 			$this->load->view('inc/header');
 		?>
-		<br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac sem ultrices, vulputate augue lobortis, tristique dui. Donec malesuada auctor quam et lacinia. Pellentesque eget adipiscing dui. Morbi blandit risus eu risus rhoncus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi consequat enim vel pulvinar rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius ligula et felis accumsan, at elementum mi tempor. Maecenas posuere placerat turpis, a hendrerit elit ornare eu. Vivamus venenatis cursus urna et varius. Etiam id ligula diam. Aenean consequat sem sed semper placerat. Fusce cursus, odio tempor sagittis ullamcorper, magna nibh congue libero, eu congue tellus felis non est. Nam ut ultrices sem, non adipiscing leo.</p>
+		<div id="radio">
+			<h3>Get Music That Doesn't Fit into Anyones Box</h3>
+			<div id="player">
+				<img src="<?echo(asset('image/radio.png'))?>" width="75px" height="100px" >
+				<p>Listen to and enjoy the artists of Radio Free Folkrider 24/7 while you work or play.</p>
+				<br>
+				<!--VosCast.com Flash Player-->
+				
+				<script type="text/javascript" src="http://cdn.voscast.com/player/?key=9d5f2137769dbf58ef5bd3e27e68a7f4"></script>
+				
+				<!--End Player-->
+			</div>
+			<div id="container">
+				<p>Please Help Us Support Indy Music</p>
+				<?
+					$this->load->view('auth/reglink');
+				?>
+			</div>
+			<h3>Some of the Albums You're Listening to Now</h3>
+		</div>
 		<?
 			$this->load->view('inc/footer');
 		?>

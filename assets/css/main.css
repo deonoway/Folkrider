@@ -1,27 +1,41 @@
+/*general site styling*/
 @import url("inc/reset.css");
 @import url("inc/header.css");
 @import url("inc/footer.css");
-@import url("inc/entrys.css");
-@import url("inc/page.css");
+@import url("inc/form.css");
+
+/*styling for indevidual pages*/
+@import url("inc/pages.css");
+
+/*styling for cataloge display pages*/
+@import url("inc/musicpage.css");
+@import url("inc/musicentrys.css");
+
+/*styling for authorazation forms*/
+@import url("inc/auth.css");
+
+/*Site wide styling*/
 
 html{
 	background: #116C46;
+	height: 100%;
 }
 
 body{
 	background: #F9F4C4;
-	width: 600px;
-	margin: 0 auto;
 	color: #116C46;
 	font-family: Garamond;
 	font-size: 18px;
-	border: 10px solid #F9F4C4;
+	box-sizing: border-box;
+	padding-bottom: 15px;
+	width: 620px;
+	margin: 0px auto;
 	position: relative;
+	min-height: 100%;
 }
 
-div{
-	display:block;
-	margin:5px;
+a{
+	font-weight: bold;
 }
 
 a:link 
@@ -40,4 +54,50 @@ ul{
 
 h3{
 	font-size:23px;
+}
+
+h2{
+	font-size:27px;
+}
+
+.minlight{
+	font-weight: bold;
+	background: #116C46;
+	padding: 0 2px;
+	color: #F9F4C4;
+	text-shadow: 1px 1px 2px #888;
+	border-radius: 5px;
+	box-shadow:2px 2px 10px #116C46;}
+
+.highlight{
+	font-weight: bold;
+	padding: 5px;
+	background: #116C46;
+	color: #F9F4C4;
+	text-shadow: 1px 1px 2px #888;
+	border-radius: 10px;
+	box-shadow:2px 2px 10px #116C46;
+}
+
+.highlight a:link, .minlight a:link{
+	font-weight: bold;
+	color: #F9F4C4;
+}
+
+.highlight a:visited, .minlight a:visited{
+	font-weight: bold;
+	color: #F9F4C4;
+}
+
+.clear{
+	clear: both;
+}
+
+.em{
+	font-size: 120%;
+}
+
+.min{
+	font-size: 75%;
+	text-decoration: none;
 }

@@ -49,9 +49,7 @@ class Auth extends CI_Controller {
 			if($this->user_model->add_temp_user()){
 				$data['title']="thank you for registering";
 
-				$data['content']="plaese check your email for our message";
-
-				$this->load->view("temp", $data);
+				$this->load->view("purchase", $data);
 			}else{
 				echo("not added to temp database");
 			}

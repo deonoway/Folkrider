@@ -10,8 +10,20 @@
 		<?
 			$this->load->view('inc/header');
 		?>
-		<br>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac sem ultrices, vulputate augue lobortis, tristique dui. Donec malesuada auctor quam et lacinia. Pellentesque eget adipiscing dui. Morbi blandit risus eu risus rhoncus volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi consequat enim vel pulvinar rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius ligula et felis accumsan, at elementum mi tempor. Maecenas posuere placerat turpis, a hendrerit elit ornare eu. Vivamus venenatis cursus urna et varius. Etiam id ligula diam. Aenean consequat sem sed semper placerat. Fusce cursus, odio tempor sagittis ullamcorper, magna nibh congue libero, eu congue tellus felis non est. Nam ut ultrices sem, non adipiscing leo.</p>
+		<div id="newInside">
+			<h3>What's new Inside</h3>
+		</div>
+		<div id="radioLink">
+			<a href="<?echo(base_url('music/radio'))?>"><img src="<?echo(asset('image/radio.png'))?>" width="75px" height="100px" ></a>
+			<p>For a sample of what's inside, please enjoy <br/><br/><span class="minlight"><a href="<?echo(base_url('music/radio'))?>">Folkrider Radio</a></span></p>
+		</div>
+		<h3>To Enjoy Hours of Quality Folk Music</h3>
+		<?
+			$this->load->view('auth/login');
+		?>
+		<div id="artistsInside">
+
+		</div>
 		<?
 			$this->load->view('inc/footer');
 		?>

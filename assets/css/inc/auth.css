@@ -1,0 +1,91 @@
+/*styling related to the regestration system*/
+
+.errors{
+	height: 50px;
+}
+
+.errors>p {
+	font-size: 80%;
+}
+
+
+/*styling for login pages*/
+#restricted>p{
+	text-align: center;
+}
+
+#login{
+	width: 500px;
+	height: 170px;
+	padding: 1px 45px;
+	text-align: center;
+}
+
+#login h5{
+	margin: 55px 0;
+}
+
+#login #regLink{
+	margin-top: 50px;
+}
+
+#loginForm{
+	width:160px;
+	float: left;
+	text-align: left;
+}
+
+#loginForm>form>p{
+	width: 200%;
+}
+
+#loginForm h3{
+	text-align: center;
+}
+
+#restricted>form>p{
+	text-align: center;
+}
+
+#regLink{
+	width: 200px;
+	text-align: center;
+	float: right;
+}
+
+
+
+/*styles for regestration and payment pages*/
+
+#register {
+	width: 400px;
+	margin: 10px auto;
+}
+
+#paypage{
+	width: 600px;
+	margin: 10px auto;
+}
+
+#paypage h3{
+	text-align: left;
+}
+
+#paypage span{
+	padding-left: 40px;
+	font-size: 90%;
+}
+
+#paypal{
+	height: 50px;
+	width: 180px;
+	margin: 30px auto;
+}
+
+#register>form>div {
+	font-size: 80%;
+}
+
+#thankyou{
+	text-align: center;
+}

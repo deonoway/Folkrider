@@ -17,7 +17,7 @@
 
 #artist object{
 	display:block;
-	margin:0 auto;
+	margin:0px auto 20px;
 }
 
 .art h1{
@@ -28,7 +28,7 @@
 
 .art img{
 	display: block;
-	margin: 10px auto;
+	margin: 0px auto 20px;
 }
 
 /*Folkrider Album page styling*/
@@ -57,10 +57,9 @@
 	padding:10px;
 }
 
-/*Folkrider Song page styling*/
-
 #songList{
 	text-align:left;
 	color:#F9F4C4;
 	background:#116C46;
+	margin-bottom: 15px;
 }

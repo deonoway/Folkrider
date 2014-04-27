@@ -26,6 +26,7 @@
 				}
 			?>
 			</div>
+			<div class="clear"></div>
 		<?
 			$this->load->view('inc/footer');
 		?>

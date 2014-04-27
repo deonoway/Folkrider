@@ -2,9 +2,11 @@
 <?
 	echo(
 		form_open('auth/signup_validation')
-			.validation_errors()
-			."<p>
-				*Email <span>please use the same email as your payment method</span><br>"
+			."<div class='errors'>"
+				.validation_errors()
+			."</div>
+			<p>
+				*Email <br><span class='min'>(Please use the same email as your payment method)</span><br>"
 				.form_input('email', $this->input->post('email'))
 			."</p>
 			

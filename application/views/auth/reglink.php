@@ -1,6 +1,5 @@
-<div id="regLink">
+<div id="regLink" class="highlight">
 	<p>
-		Or<br>
-		<a href="<?echo(base_url())?>">Become a member today for just $12</a>
+		<a href="<?echo(base_url('auth/signup_validation'))?>">Become a Folkrider Today for Just $12</a>
 	</p>
 </div>
