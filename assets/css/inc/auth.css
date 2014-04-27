@@ -10,6 +10,10 @@
 
 
 /*styling for login pages*/
+#restricted>p{
+	text-align: center;
+}
+
 #login{
 	width: 500px;
 	height: 170px;
