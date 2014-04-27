@@ -29,13 +29,28 @@
 	text-align: center;
 }
 
-#restricted>p{
+#restricted>form>p{
 	text-align: center;
 }
 
 #paypal{}
 
-#register{}
+#register {
+	width: 400px;
+	margin: 10px auto;
+}
+
+.errors{
+	height: 50px;
+}
+
+.errors>p {
+	font-size: 80%;
+}
+
+#register>form>div {
+	font-size: 80%;
+}
 
 #regLink{
 	width: 200px;
