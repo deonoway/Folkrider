@@ -11,7 +11,7 @@
 			$this->load->view('inc/header');
 		
 		echo(
-			"<div>"
+			"<div id='temp'>"
 				.$content
 			."</div>"
 		);

@@ -19,6 +19,12 @@
 }
 
 
+/*temp page*/
+#temp{
+	width: 550px;
+	margin: 0 auto;
+	text-align: center;
+}
 
 /* Folkrider radio*/
 
@@ -98,3 +104,21 @@
 }
 
 /*styles for the contact page*/
+
+#contact{
+	width: 500px;
+	margin: 20px auto;
+}
+
+#contact p{
+	clear: both;
+}
+
+#contact input[type="text"]{
+	width: 75%;
+	float: right;
+}
+
+#contact textarea{
+	width: 100%;
+}

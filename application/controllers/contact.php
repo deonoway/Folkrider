@@ -17,6 +17,6 @@ class Contact extends CI_Controller {
 		$this->file_man->write($message, 'message.txt');
 		$data['title']="Thank you";
 		$data['content']="Thank you for getting in touch";
-		$this->load->view("empty", $data);
+		$this->load->view("temp", $data);
 	}
 }

@@ -11,6 +11,11 @@
 		'id' => 'subject'
 		,'name' => 'subject' );
 
+	$name = array(
+		'id' => 'name'
+		,'name' => 'name' 
+		);
+
 	$body = array(
 		'id' => 'body'
 		,'name' => 'body' );
@@ -24,18 +29,22 @@
 		<?
 			$this->load->view('inc/header');
 		?>
-		<?
-			echo(form_open('contact/thankyou'));
-			echo "<p>Email</p>";
-			echo(form_input($email));
-			echo "<p>Subject</p>";
-			echo(form_input($subject));
-			echo "<p>Body</p>";
-			echo(form_textarea($body));
-			echo(br());
-			echo(form_submit("Submit","submit"));
-			echo(form_close()); 
-		?>
+		<div id="contact">
+			<?
+				echo(form_open('contact/thankyou')
+				."<p>Email *"
+				.form_input($email)
+				."</p><p>Name *"
+				.form_input($name)
+				."</p><p>Subject *"
+				.form_input($subject)
+				."</p><br><br><p>Body</p>"
+				.form_textarea($body)
+				.br()
+				.form_submit("Submit","submit")
+				.form_close()); 
+			?>
+		</div>
 		<?
 			$this->load->view('inc/footer');
 		?>
