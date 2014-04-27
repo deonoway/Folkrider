@@ -21,7 +21,15 @@
 	text-align: left;
 }
 
+#loginForm>form>p{
+	width: 200%;
+}
+
 #loginForm h3{
+	text-align: center;
+}
+
+#restricted>p{
 	text-align: center;
 }
 
