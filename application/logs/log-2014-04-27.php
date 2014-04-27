@@ -3236,3 +3236,221 @@ DEBUG - 2014-04-27 10:53:15 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-27 10:53:15 --> File loaded: application/views/thankyou.php
 DEBUG - 2014-04-27 10:53:15 --> Final output sent to browser
 DEBUG - 2014-04-27 10:53:15 --> Total execution time: 0.4848
+DEBUG - 2014-04-27 11:11:31 --> Config Class Initialized
+DEBUG - 2014-04-27 11:11:31 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:11:31 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:11:31 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:11:31 --> URI Class Initialized
+DEBUG - 2014-04-27 11:11:31 --> Router Class Initialized
+ERROR - 2014-04-27 11:11:31 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-27 11:11:32 --> Config Class Initialized
+DEBUG - 2014-04-27 11:11:32 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:11:32 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:11:32 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:11:32 --> URI Class Initialized
+DEBUG - 2014-04-27 11:11:32 --> Router Class Initialized
+ERROR - 2014-04-27 11:11:32 --> 404 Page Not Found --> announce
+DEBUG - 2014-04-27 11:13:11 --> Config Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:13:11 --> URI Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Router Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Output Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Security Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Input Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 11:13:11 --> Language Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Loader Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: html_helper
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: url_helper
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: file_helper
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: path_helper
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: form_helper
+DEBUG - 2014-04-27 11:13:11 --> Database Driver Class Initialized
+ERROR - 2014-04-27 11:13:11 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-27 11:13:11 --> Form Validation Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Session Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Helper loaded: string_helper
+DEBUG - 2014-04-27 11:13:11 --> Session routines successfully run
+DEBUG - 2014-04-27 11:13:11 --> Email Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Model Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Model Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Controller Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Image Lib Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Model Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> Model Class Initialized
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:11 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:12 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:12 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:12 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:13:12 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-27 11:13:12 --> File loaded: application/views/music.php
+DEBUG - 2014-04-27 11:13:12 --> Final output sent to browser
+DEBUG - 2014-04-27 11:13:12 --> Total execution time: 0.4965
+DEBUG - 2014-04-27 11:29:09 --> Config Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:29:09 --> URI Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Router Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Output Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Security Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Input Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 11:29:09 --> Language Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Loader Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: html_helper
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: url_helper
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: file_helper
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: path_helper
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: form_helper
+DEBUG - 2014-04-27 11:29:09 --> Database Driver Class Initialized
+ERROR - 2014-04-27 11:29:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-27 11:29:09 --> Form Validation Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Session Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Helper loaded: string_helper
+DEBUG - 2014-04-27 11:29:09 --> Session routines successfully run
+DEBUG - 2014-04-27 11:29:09 --> Email Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Model Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Model Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Controller Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Image Lib Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Model Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> Model Class Initialized
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-27 11:29:09 --> File loaded: application/views/music.php
+DEBUG - 2014-04-27 11:29:09 --> Final output sent to browser
+DEBUG - 2014-04-27 11:29:09 --> Total execution time: 0.3836
+DEBUG - 2014-04-27 11:31:13 --> Config Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:31:13 --> URI Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Router Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Output Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Security Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Input Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 11:31:13 --> Language Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Loader Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: html_helper
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: url_helper
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: file_helper
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: path_helper
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: form_helper
+DEBUG - 2014-04-27 11:31:13 --> Database Driver Class Initialized
+ERROR - 2014-04-27 11:31:13 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-27 11:31:13 --> Form Validation Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Session Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Helper loaded: string_helper
+DEBUG - 2014-04-27 11:31:13 --> Session routines successfully run
+DEBUG - 2014-04-27 11:31:13 --> Email Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Model Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Model Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Controller Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Image Lib Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Model Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> Model Class Initialized
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-27 11:31:13 --> File loaded: application/views/music.php
+DEBUG - 2014-04-27 11:31:13 --> Final output sent to browser
+DEBUG - 2014-04-27 11:31:13 --> Total execution time: 0.5331
+DEBUG - 2014-04-27 11:32:40 --> Config Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Hooks Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 11:32:40 --> URI Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Router Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Output Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Security Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Input Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 11:32:40 --> Language Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Loader Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: html_helper
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: url_helper
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: file_helper
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: path_helper
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: form_helper
+DEBUG - 2014-04-27 11:32:40 --> Database Driver Class Initialized
+ERROR - 2014-04-27 11:32:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-27 11:32:40 --> Form Validation Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Session Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Helper loaded: string_helper
+DEBUG - 2014-04-27 11:32:40 --> Session routines successfully run
+DEBUG - 2014-04-27 11:32:40 --> Email Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Model Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Model Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Controller Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Image Lib Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Model Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> Model Class Initialized
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-27 11:32:40 --> File loaded: application/views/music.php
+DEBUG - 2014-04-27 11:32:40 --> Final output sent to browser
+DEBUG - 2014-04-27 11:32:40 --> Total execution time: 0.4738
