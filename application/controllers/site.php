@@ -18,4 +18,9 @@ class Site extends CI_Controller {
 		$data['title']="Some Frequently Asked Questions";
 		$this->load->view("faq", $data);
 	}
+	
+	public function thankYou(){
+		$data['title']='Thank you';
+		$this->load->view("thankyou", $data);
+	}
 }
