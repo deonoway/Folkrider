@@ -1,0 +1,66 @@
+/*Folkrider Artists page styling*/
+
+#artist{
+	text-align: center;
+}
+
+#artist .album{
+	display:inline-block;
+	margin:10px;
+	padding: 5px 20px;
+}
+
+#artist .album h2{
+	padding:3px;
+	text-shadow: 1px 1px 2px #888;
+}
+
+#artist object{
+	display:block;
+	margin:0 auto;
+}
+
+.art h1{
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #888;
+}
+
+.art img{
+	display: block;
+	margin: 10px auto;
+}
+
+/*Folkrider Album page styling*/
+
+#album{
+	text-align:center;
+}
+
+#album h1{
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #888;
+}
+
+#album img{
+	display: block;
+	margin: 10px auto;
+}
+
+#album h3{
+	margin:5px;
+}
+
+#album div{
+	display:inline-block;
+	padding:10px;
+}
+
+/*Folkrider Song page styling*/
+
+#songList{
+	text-align:left;
+	color:#F9F4C4;
+	background:#116C46;
+}

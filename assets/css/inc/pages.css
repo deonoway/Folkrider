@@ -1,0 +1,98 @@
+/* Folkrider main page*/
+
+#newInside{
+	width:575px;
+	height: 275px;
+	border: 5px solid #116C46;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+
+#radioLink{
+	height: 100px;
+	width: 210px;
+	margin: 20px auto;
+}
+
+#radioLink img{
+	float: right;
+}
+
+
+
+/* Folkrider radio*/
+
+#radio{
+	width: 550px;
+	margin: 0 auto;
+}
+
+#radio #player{
+	width: 300px;
+	height: 155px;
+	margin: 0 auto;
+}
+
+#radio img{
+	float: left;
+	padding: 10px;
+}
+
+#radio #container{
+	margin: 0 auto;
+	width: 500px;
+	padding: 50px;
+}
+
+#radio #container p{
+	display: inline-block;
+	width: 200px;
+}
+
+#radio #container div{
+	display: inline-block;
+	width: 200px;
+}
+
+#radio h3{
+	clear: both;
+}
+
+
+
+/* styles for FAQ */
+
+#faq{
+	width: 500px;
+	margin: 2px auto;
+}
+
+#faq>div{
+	border: 1px solid #116C46;
+	padding: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.question{
+	margin-bottom: 50px;
+}
+
+.question div, .question p, .answer div, .answer p{
+	display: inline-block;
+}
+
+.question div, .answer div{
+	padding: 0px;
+	margin: 0px;
+	width: 10%;
+	float: left;
+	vertical-align: middle;
+}
+
+
+.question p, .answer p{
+	width: 85%;
+	float: right;
+}

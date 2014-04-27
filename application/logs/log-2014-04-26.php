@@ -1722,3 +1722,623 @@ DEBUG - 2014-04-26 06:11:59 --> File loaded: application/views/inc/footer.php
 DEBUG - 2014-04-26 06:11:59 --> File loaded: application/views/faq.php
 DEBUG - 2014-04-26 06:11:59 --> Final output sent to browser
 DEBUG - 2014-04-26 06:11:59 --> Total execution time: 0.2332
+DEBUG - 2014-04-26 06:16:38 --> Config Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Config Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:16:38 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:16:38 --> URI Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> URI Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Router Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Router Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> No URI present. Default controller set.
+ERROR - 2014-04-26 06:16:38 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 06:16:38 --> Output Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Security Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Input Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:16:38 --> Language Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:16:38 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:16:38 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:16:38 --> Config Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:16:38 --> URI Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Router Class Initialized
+ERROR - 2014-04-26 06:16:38 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 06:16:38 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Session Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:16:38 --> A session cookie was not found.
+DEBUG - 2014-04-26 06:16:38 --> Session routines successfully run
+DEBUG - 2014-04-26 06:16:38 --> Email Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Model Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Model Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:16:38 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:16:38 --> Final output sent to browser
+DEBUG - 2014-04-26 06:16:38 --> Total execution time: 0.2309
+DEBUG - 2014-04-26 06:31:14 --> Config Class Initialized
+DEBUG - 2014-04-26 06:31:14 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:31:14 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:31:14 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:31:14 --> URI Class Initialized
+DEBUG - 2014-04-26 06:31:14 --> Router Class Initialized
+ERROR - 2014-04-26 06:31:14 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 06:31:15 --> Config Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:31:15 --> URI Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Router Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 06:31:15 --> Output Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Security Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Input Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:31:15 --> Language Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:31:15 --> Database Driver Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Config Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Hooks Class Initialized
+ERROR - 2014-04-26 06:31:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:31:15 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:31:15 --> Session Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> URI Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:31:15 --> A session cookie was not found.
+DEBUG - 2014-04-26 06:31:15 --> Session routines successfully run
+DEBUG - 2014-04-26 06:31:15 --> Router Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Email Class Initialized
+ERROR - 2014-04-26 06:31:15 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 06:31:15 --> Model Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Model Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:31:15 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:31:15 --> Final output sent to browser
+DEBUG - 2014-04-26 06:31:15 --> Total execution time: 0.7066
+DEBUG - 2014-04-26 06:31:25 --> Config Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:31:25 --> URI Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Router Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 06:31:25 --> Output Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Security Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Input Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:31:25 --> Language Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:31:25 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:31:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:31:25 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Session Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:31:25 --> Session routines successfully run
+DEBUG - 2014-04-26 06:31:25 --> Email Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Model Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Model Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:31:25 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:31:25 --> Final output sent to browser
+DEBUG - 2014-04-26 06:31:25 --> Total execution time: 0.3253
+DEBUG - 2014-04-26 06:32:27 --> Config Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:32:27 --> URI Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Router Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Output Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Security Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Input Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:32:27 --> Language Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:32:27 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:32:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:32:27 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Session Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:32:27 --> Session routines successfully run
+DEBUG - 2014-04-26 06:32:27 --> Email Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:32:27 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:32:27 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:32:27 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:32:27 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:32:27 --> File loaded: application/views/radio.php
+DEBUG - 2014-04-26 06:32:27 --> Final output sent to browser
+DEBUG - 2014-04-26 06:32:27 --> Total execution time: 0.4049
+DEBUG - 2014-04-26 06:32:41 --> Config Class Initialized
+DEBUG - 2014-04-26 06:32:41 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:32:41 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:32:41 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:32:41 --> URI Class Initialized
+DEBUG - 2014-04-26 06:32:41 --> Router Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Output Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Security Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Input Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:32:42 --> Language Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:32:42 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:32:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:32:42 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Session Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:32:42 --> Session routines successfully run
+DEBUG - 2014-04-26 06:32:42 --> Email Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Image Lib Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> Model Class Initialized
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music/main.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:32:42 --> File loaded: application/views/music.php
+DEBUG - 2014-04-26 06:32:42 --> Final output sent to browser
+DEBUG - 2014-04-26 06:32:42 --> Total execution time: 1.3504
+DEBUG - 2014-04-26 06:47:56 --> Config Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:47:56 --> URI Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Router Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 06:47:56 --> Output Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Security Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Input Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:47:56 --> Language Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:47:56 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:47:56 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:47:56 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:47:56 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:47:56 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:47:56 --> Database Driver Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Config Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Hooks Class Initialized
+ERROR - 2014-04-26 06:47:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:47:57 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:47:57 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Session Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> URI Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:47:57 --> A session cookie was not found.
+DEBUG - 2014-04-26 06:47:57 --> Session routines successfully run
+DEBUG - 2014-04-26 06:47:57 --> Router Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Email Class Initialized
+ERROR - 2014-04-26 06:47:57 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 06:47:57 --> Model Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Model Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:47:57 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:47:57 --> Final output sent to browser
+DEBUG - 2014-04-26 06:47:57 --> Total execution time: 0.2796
+DEBUG - 2014-04-26 06:47:57 --> Config Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:47:57 --> URI Class Initialized
+DEBUG - 2014-04-26 06:47:57 --> Router Class Initialized
+ERROR - 2014-04-26 06:47:57 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 06:50:01 --> Config Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:50:01 --> URI Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Router Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 06:50:01 --> Output Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Security Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Input Class Initialized
+DEBUG - 2014-04-26 06:50:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:50:01 --> Language Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:50:02 --> Config Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:50:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:50:02 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Session Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:50:02 --> A session cookie was not found.
+DEBUG - 2014-04-26 06:50:02 --> Session routines successfully run
+DEBUG - 2014-04-26 06:50:02 --> Email Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Model Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Model Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:50:02 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:50:02 --> Config Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:50:02 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:50:02 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:50:02 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Final output sent to browser
+DEBUG - 2014-04-26 06:50:02 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:50:02 --> Total execution time: 0.2706
+DEBUG - 2014-04-26 06:50:02 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:50:02 --> URI Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> URI Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Router Class Initialized
+DEBUG - 2014-04-26 06:50:02 --> Router Class Initialized
+ERROR - 2014-04-26 06:50:02 --> 404 Page Not Found --> JNAP
+ERROR - 2014-04-26 06:50:02 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 06:55:12 --> Config Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:55:12 --> URI Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Router Class Initialized
+ERROR - 2014-04-26 06:55:12 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 06:55:12 --> Config Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:55:12 --> URI Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Router Class Initialized
+ERROR - 2014-04-26 06:55:12 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 06:55:12 --> Config Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:55:12 --> URI Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Router Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 06:55:12 --> Output Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Security Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Input Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:55:12 --> Language Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:55:12 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:55:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 06:55:12 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Session Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 06:55:12 --> A session cookie was not found.
+DEBUG - 2014-04-26 06:55:12 --> Session routines successfully run
+DEBUG - 2014-04-26 06:55:12 --> Email Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Model Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Model Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 06:55:12 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 06:55:12 --> Final output sent to browser
+DEBUG - 2014-04-26 06:55:12 --> Total execution time: 0.3696
+DEBUG - 2014-04-26 07:03:51 --> Config Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Hooks Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Config Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Hooks Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 07:03:51 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 07:03:51 --> URI Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> URI Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Router Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Router Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> No URI present. Default controller set.
+ERROR - 2014-04-26 07:03:51 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 07:03:51 --> Output Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Security Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Input Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 07:03:51 --> Language Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Loader Class Initialized
+DEBUG - 2014-04-26 07:03:51 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 07:03:51 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 07:03:51 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 07:03:51 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 07:03:51 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 07:03:52 --> Database Driver Class Initialized
+ERROR - 2014-04-26 07:03:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 07:03:52 --> Config Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Hooks Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 07:03:52 --> URI Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Router Class Initialized
+ERROR - 2014-04-26 07:03:52 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 07:03:52 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Session Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 07:03:52 --> A session cookie was not found.
+DEBUG - 2014-04-26 07:03:52 --> Session routines successfully run
+DEBUG - 2014-04-26 07:03:52 --> Email Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Model Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Model Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> Controller Class Initialized
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 07:03:52 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 07:03:52 --> Final output sent to browser
+DEBUG - 2014-04-26 07:03:52 --> Total execution time: 0.4200
+DEBUG - 2014-04-26 07:06:20 --> Config Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Hooks Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 07:06:20 --> URI Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Router Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Output Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Security Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Input Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 07:06:20 --> Language Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Loader Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 07:06:20 --> Database Driver Class Initialized
+ERROR - 2014-04-26 07:06:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 07:06:20 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Session Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 07:06:20 --> Session routines successfully run
+DEBUG - 2014-04-26 07:06:20 --> Email Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Model Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Model Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> Controller Class Initialized
+DEBUG - 2014-04-26 07:06:20 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 07:06:20 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 07:06:20 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 07:06:20 --> File loaded: application/views/faq.php
+DEBUG - 2014-04-26 07:06:20 --> Final output sent to browser
+DEBUG - 2014-04-26 07:06:20 --> Total execution time: 0.6315
+DEBUG - 2014-04-26 15:47:08 --> Config Class Initialized
+DEBUG - 2014-04-26 15:47:08 --> Hooks Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 15:47:09 --> URI Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Router Class Initialized
+ERROR - 2014-04-26 15:47:09 --> 404 Page Not Found --> HNAP1
+DEBUG - 2014-04-26 15:47:09 --> Config Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Hooks Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 15:47:09 --> URI Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Router Class Initialized
+ERROR - 2014-04-26 15:47:09 --> 404 Page Not Found --> JNAP
+DEBUG - 2014-04-26 15:47:09 --> Config Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Hooks Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 15:47:09 --> URI Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Router Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> No URI present. Default controller set.
+DEBUG - 2014-04-26 15:47:09 --> Output Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Security Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Input Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 15:47:09 --> Language Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Loader Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 15:47:09 --> Database Driver Class Initialized
+ERROR - 2014-04-26 15:47:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2014-04-26 15:47:09 --> Severity: Warning  --> mysql_pconnect(): MySQL server has gone away C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 15:47:09 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Session Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 15:47:09 --> A session cookie was not found.
+DEBUG - 2014-04-26 15:47:09 --> Session routines successfully run
+DEBUG - 2014-04-26 15:47:09 --> Email Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Model Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Model Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> Controller Class Initialized
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/auth/loginForm.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/auth/reglink.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/auth/login.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 15:47:09 --> File loaded: application/views/home.php
+DEBUG - 2014-04-26 15:47:09 --> Final output sent to browser
+DEBUG - 2014-04-26 15:47:09 --> Total execution time: 0.5213
+DEBUG - 2014-04-26 18:09:21 --> Config Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Hooks Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 18:09:21 --> URI Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Router Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Output Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Security Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Input Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 18:09:21 --> Language Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Loader Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 18:09:21 --> Database Driver Class Initialized
+ERROR - 2014-04-26 18:09:21 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 18:09:21 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Session Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 18:09:21 --> A session cookie was not found.
+DEBUG - 2014-04-26 18:09:21 --> Session routines successfully run
+DEBUG - 2014-04-26 18:09:21 --> Email Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Model Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Model Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> Controller Class Initialized
+DEBUG - 2014-04-26 18:09:21 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 18:09:21 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 18:09:21 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 18:09:22 --> File loaded: application/views/faq.php
+DEBUG - 2014-04-26 18:09:22 --> Final output sent to browser
+DEBUG - 2014-04-26 18:09:22 --> Total execution time: 0.3650
+DEBUG - 2014-04-26 18:09:41 --> Config Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Hooks Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 18:09:41 --> URI Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Router Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Output Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Security Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Input Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 18:09:41 --> Language Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Loader Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 18:09:41 --> Database Driver Class Initialized
+ERROR - 2014-04-26 18:09:41 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 18:09:41 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Session Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 18:09:41 --> Session routines successfully run
+DEBUG - 2014-04-26 18:09:41 --> Email Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Model Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Model Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> Controller Class Initialized
+DEBUG - 2014-04-26 18:09:41 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 18:09:41 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 18:09:41 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 18:09:41 --> File loaded: application/views/faq.php
+DEBUG - 2014-04-26 18:09:41 --> Final output sent to browser
+DEBUG - 2014-04-26 18:09:41 --> Total execution time: 0.2207
+DEBUG - 2014-04-26 18:13:35 --> Config Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Hooks Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 18:13:35 --> URI Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Router Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Output Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Security Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Input Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 18:13:35 --> Language Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Loader Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: html_helper
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: file_helper
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: path_helper
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 18:13:35 --> Database Driver Class Initialized
+ERROR - 2014-04-26 18:13:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-04-26 18:13:35 --> Form Validation Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Session Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Helper loaded: string_helper
+DEBUG - 2014-04-26 18:13:35 --> Session routines successfully run
+DEBUG - 2014-04-26 18:13:35 --> Email Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Model Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Model Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> Controller Class Initialized
+DEBUG - 2014-04-26 18:13:35 --> File loaded: application/views/inc/head.php
+DEBUG - 2014-04-26 18:13:35 --> File loaded: application/views/inc/header.php
+DEBUG - 2014-04-26 18:13:35 --> File loaded: application/views/inc/footer.php
+DEBUG - 2014-04-26 18:13:35 --> File loaded: application/views/faq.php
+DEBUG - 2014-04-26 18:13:35 --> Final output sent to browser
+DEBUG - 2014-04-26 18:13:35 --> Total execution time: 0.5556
