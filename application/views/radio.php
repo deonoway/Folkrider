@@ -28,7 +28,6 @@
 					$this->load->view('auth/reglink');
 				?>
 			</div>
-			<h3>Some of the Albums You're Listening to Now</h3>
 		</div>
 		<?
 			$this->load->view('inc/footer');
