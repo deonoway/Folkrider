@@ -1,6 +1,6 @@
 <header>
 	<nav>
-		<a href="<?echo(base_url())?>"><img src="<?echo(asset('image/logo.png'))?>" height="85px" width="600px"></a>
+		<a href="<?echo(base_url())?>"><img src="<?echo(asset('image/logo.png'))?>" height="85px" width="620px"></a>
 		<ul>
 			<li>
 				<a href="<?php echo(base_url())?>">Home</a>
