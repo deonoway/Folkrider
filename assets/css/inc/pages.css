@@ -2,10 +2,12 @@
 
 #newInside{
 	width:575px;
-	height: 275px;
-	border: 5px solid #116C46;
-	border-radius: 10px;
+	height: 240px;
 	margin: 0px auto;
+}
+
+#newInside h3{
+	margin: 5px
 }
 
 #radioLink{
@@ -16,6 +18,10 @@
 
 #radioLink img{
 	float: right;
+}
+
+h3.tag{
+	margin: 5px
 }
 
 
