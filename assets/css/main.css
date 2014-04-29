@@ -14,6 +14,9 @@
 /*styling for authorazation forms*/
 @import url("inc/auth.css");
 
+/*styling for slider*/
+@import url('inc/orbit.css');
+
 /*Site wide styling*/
 
 html{

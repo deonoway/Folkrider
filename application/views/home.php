@@ -12,6 +12,16 @@
 		?>
 		<div id="newInside">
 			<h3>What's new Inside</h3>
+			<div id="featured">
+					<img src="<?echo(asset('image/slide/HenkeSlide.png'))?>" width="500" height="200" alt="" title="" />
+					<img src="<?echo(asset('image/slide/JohnSlide.png'))?>" width="500" height="200" alt="" title="" />
+					<img src="<?echo(asset('image/slide/TommySlide.png'))?>" width="500" height="200" alt="" title="" />
+			</div>
+			<script type="text/javascript">
+			     $(window).load(function() {
+			         $('#featured').orbit();
+			     });
+			</script>
 		</div>
 		<a href="<?echo(base_url('music/radio'))?>">
 			<div id="radioLink">
