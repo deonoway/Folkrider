@@ -5,20 +5,27 @@
 
 	$email = array(
 		'id' => 'from'
-		,'name' => 'from' );
+		,'name' => 'from'
+		,'value' => $from
+		);
 
 	$subject = array(
 		'id' => 'subject'
-		,'name' => 'subject' );
+		,'name' => 'subject'
+		,'value' => $subject
+		);
 
 	$name = array(
 		'id' => 'name'
-		,'name' => 'name' 
+		,'name' => 'name'
+		,'value' => $name
 		);
 
 	$body = array(
 		'id' => 'body'
-		,'name' => 'body' );
+		,'name' => 'body'
+		,'value' => $body
+		);
 ?>
 
 <html>
@@ -31,8 +38,11 @@
 		?>
 		<div id="contact">
 			<?
-				echo(form_open('contact/thankyou')
-				."<p>Email *"
+				echo(form_open('contact/form_validate')
+				."<div class='errors'>"
+					.validation_errors()
+				."</div>
+				<p>Email *"
 				.form_input($email)
 				."</p><p>Name *"
 				.form_input($name)

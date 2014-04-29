@@ -116,6 +116,10 @@ h3.tag{
 	margin: 20px auto;
 }
 
+#contact .errors{
+	height:80px;
+}
+
 #contact p{
 	clear: both;
 }
