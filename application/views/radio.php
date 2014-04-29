@@ -11,7 +11,7 @@
 			$this->load->view('inc/header');
 		?>
 		<div id="radio">
-			<h3>Get Music That Doesn't Fit into Anyones Box</h3>
+			<h3>Get Music That Doesn't Fit into Anyone's Box</h3>
 			<div id="player">
 				<img src="<?echo(asset('image/radio.png'))?>" width="75px" height="100px" >
 				<p>Listen to and enjoy the artists of Radio Free Folkrider 24/7 while you work or play.</p>

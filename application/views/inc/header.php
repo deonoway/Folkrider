@@ -1,4 +1,3 @@
-<!--<div id="wrapper">-->
 <header>
 	<nav>
 		<a href="<?echo(base_url())?>"><img src="<?echo(asset('image/logo.png'))?>" height="85px" width="600px"></a>

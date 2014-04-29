@@ -24,11 +24,11 @@ html{
 body{
 	background: #F9F4C4;
 	color: #116C46;
-	font-family: Garamond;
+	font-family: Garamond, Georgia, Serif;
 	font-size: 18px;
 	box-sizing: border-box;
 	padding-bottom: 15px;
-	width: 620px;
+	width: 630px;
 	margin: 0px auto;
 	position: relative;
 	min-height: 100%;
